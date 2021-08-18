@@ -1,0 +1,22 @@
+---
+title: "Loïc Henry"
+image: "Loic-6.jpg"
+links:
+  - label: Google Scholar
+    url: "https://scholar.google.com/citations?user=KCr53_0AAAAJ&hl=fr"
+  - label: ORCID iD
+    url: "https://orcid.org/0000-0002-8169-1370"
+  - label: Linkedin
+    url: "https://www.linkedin.com/in/loichenry1/"
+  - label: GitHub
+    url: "https://github.com/loichy"
+  - label: Email
+    url: "mailto:henry.loic56@gmail.com"
+output:
+  postcards::jolla
+site: distill::distill_website
+---
+ 
+I am a PhD candidate in economics at UMR Economie Publique (Université Paris-Saclay, INRAE, Agroparistech). I am also an assistant lecturer (ATER) at the Social Sciences department of ENS Paris-Saclay.
+I work on economic issues related to climate change, from both a mitigation and
+an adaptation perspective and with a focus on the implications for agriculture.
