@@ -1,7 +1,7 @@
 ---
-title: "About this site"
+title: "Teaching"
 description: |
-  Some additional details about the website
+  Materials to come soon.
 ---
 
 ```{r setup, include=FALSE}
