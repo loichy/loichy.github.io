@@ -1,8 +1,24 @@
 ---
-title: "About this site"
-description: |
-  Some additional details about the website
+title: "Research"
+description: | 
+  Research interests: Climate change mitigation and adaptation, agriculture, microeconomics and applied modeling
+
 ---
+
+## Journal articles
+* S. De Cara, **L. Henry** and P.A. Jayet. 2018. Optimal coverage of an emission tax in the presence of monitoring, reporting, and verification costs. ***Journal of Environmental Economics and Management***. [Publisher's link.](https://www.sciencedirect.com/science/article/pii/S0095069617302814)
+
+## Working papers
+* **L. Henry**. Adapting Geographical Indication to climate change.
+* **L.Henry**. Have economists really “let down the world”? A quantitative overview of the economic literature on climate change.
+
+## Work in progress
+* **L.Henry**. Farmers’ behavioral response toward threshold-based policies.
+
+## Other publications
+
+* S. Cortés-Acosta, D.A. Fleming, **L. Henry**, E. Lou, S. Owen and B. Small. 2019. Identifying barriers to adoption of “no-cost” greenhouse gas mitigation practices in pastoral
+systems. ***Motu Working Paper***. [Link to working paper](http://motu-www.motu.org.nz/wpapers/19_10.pdf)
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)

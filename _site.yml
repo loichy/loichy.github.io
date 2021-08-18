@@ -1,6 +1,7 @@
-name: "LOIC HENRY"
+name: "Loic Henry"
 title: "LOIC HENRY"
 theme: postcards.css
+author: Loïc Henry
 description: |
   mfeo
 output_dir: "docs"
