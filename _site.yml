@@ -1,11 +1,14 @@
 name: "Loic Henry"
-title: "LOIC HENRY"
+title: "Loic Henry"
 theme: postcards.css
 author: Loïc Henry
 description: |
-  mfeo
+  Loïc Henry personal webpage
 output_dir: "docs"
 navbar:
+  logo:
+    image: octopus_1f419.png
+    href: https://loichy.github.io/
   right:
     - text: "About"
       href: curriculum.html

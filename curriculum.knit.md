@@ -13,7 +13,7 @@ description: |
 * **2015-2016** Master 2, Université Paris Saclay, [Economie de l'énergie de l'environnement et des transports.](https://www.universite-paris-saclay.fr/en/education/master/environmental-energy-and-transport-economics/m2-economie-du-developpement-durable-et-de-lenvironnement)
 * **2014-2015** Master 1, Economie Théorique et Empirique, Université Paris 1.
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
 
+
+```{.r .distill-force-highlighting-css}
+```
