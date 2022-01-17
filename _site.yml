@@ -1,20 +1,11 @@
-name: "loichenry"
-title: "Loic Henry"
+name: "Loic Henry"
+title: "LOIC HENRY"
 theme: postcards.css
 author: Loïc Henry
 description: |
-  Loïc Henry personal webpage
+  mfeo
 output_dir: "docs"
-base_url: https://loichy.github.io/
-repository_url: https://github.com/loichy/loichy.github.io
-google_analytics: "G-M3L4WL4K5Q"
-creative_commons: CC BY
-favicon: Loic-6.jpg
 navbar:
-  logo:
-    image: octopus_1f419.png
-    # image: 
-    href: https://loichy.github.io/
   right:
     - text: "About"
       href: curriculum.html

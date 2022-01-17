@@ -6,7 +6,7 @@ description: |
 ---
 
 ## Journal articles
-* S. De Cara, **L. Henry** and P.A. Jayet. 2018. Optimal coverage of an emission tax in the presence of monitoring, reporting, and verification costs. ***Journal of Environmental Economics and Management***. [Publisher's link.](https://www.sciencedirect.com/science/article/pii/S0095069617302814) [Link to preprint.](https://hal.archives-ouvertes.fr/hal-01736839)
+* S. De Cara, **L. Henry** and P.A. Jayet. 2018. Optimal coverage of an emission tax in the presence of monitoring, reporting, and verification costs. ***Journal of Environmental Economics and Management***. [Publisher's link.](https://www.sciencedirect.com/science/article/pii/S0095069617302814)
 
 ## Working papers
 * **L. Henry**. Adapting Geographical Indication to climate change.
