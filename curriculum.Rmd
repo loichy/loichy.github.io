@@ -8,14 +8,16 @@ description: |
 ---
 
 ## Curriculum
-* **2021-** Postdoctoral research fellow at ESRI
-* **2017-2021** PhD candidate at Paris Saclay Applied Economics (PSAE). Supervisor: Stéphane De Cara
+* **2021-** Postdoctoral research fellow at [Economic and Social Research Institute (ESRI)](https://www.esri.ie/)
+* **2017-2021** PhD candidate at [Paris Saclay Applied Economics (PSAE)](https://www6.versailles-grignon.inrae.fr/economie_publique). Advisor: Stéphane De Cara
 * **2017-2021** Assistant lecturer at ENS Paris-Saclay.
 * **2016-2017** Visiting student at [Motu (Wellington, New Zealand).](https://www.motu.nz/)
 * **2015-2016** Master 2, Université Paris Saclay, [Economie de l'énergie de l'environnement et des transports.](https://www.universite-paris-saclay.fr/en/education/master/environmental-energy-and-transport-economics/m2-economie-du-developpement-durable-et-de-lenvironnement)
 * **2014-2015** Master 1, Economie Théorique et Empirique, Université Paris 1.
 
-For the list of publications, see the [Research](https://loichy.github.io/research.html) page.
+[Link for detailed CV](https://www.dropbox.com/s/xb7yallo057aeoy/CV_2022.pdf?dl=0)
+
+For the list of publications, see the [Research page](https://loichy.github.io/research.html).
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
