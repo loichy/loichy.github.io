@@ -11,7 +11,7 @@ links:
   - label: GitHub
     url: "https://github.com/loichy"
   - label: Email
-    url: "mailto:henry.loic56@gmail.com"
+    url: "mailto:loic.henry@esri.ie"
 output:
   postcards::jolla
 site: distill::distill_website
