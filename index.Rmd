@@ -11,12 +11,10 @@ links:
   - label: GitHub
     url: "https://github.com/loichy"
   - label: Email
-    url: "mailto:henry.loic56@gmail.com"
+    url: "mailto:loic.henry@esri.ie"
 output:
   postcards::jolla
 site: distill::distill_website
 ---
  
-I am a PhD candidate in economics at UMR Economie Publique (Université Paris-Saclay, INRAE, Agroparistech). I am also an assistant lecturer (ATER) at the Social Sciences department of ENS Paris-Saclay.
-I work on economic issues related to climate change, from both a mitigation and
-an adaptation perspective and with a focus on the implications for agriculture.
+I'm a postdoctoral research fellow at [Economic and Social Research Institute (ESRI)](https://www.esri.ie/) in Dublin, Ireland. I work on economics relevant to climate change. In particular, I am interested in modeling and estimating climate change impacts, designing mitigation policies, and their specific implications for agriculture.
