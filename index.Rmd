@@ -17,4 +17,4 @@ output:
 site: distill::distill_website
 ---
  
-I'm a postdoctoral research fellow at [Economic and Social Research Institute (ESRI)](https://www.esri.ie/) in Dublin, Ireland. I work on economics relevant to climate change. In particular, I am interested in modeling and estimating climate change impacts, designing mitigation policies, and their specific implications for agriculture.
+I'm a postdoctoral research fellow at [Economic and Social Research Institute (ESRI)](https://www.esri.ie/) in Dublin, Ireland. I work on economics relevant to climate change. In particular, I am interested in modeling and estimating climate change impacts, planning and assessing adaptation options, designing mitigation policies, by developing applied modeling tools.

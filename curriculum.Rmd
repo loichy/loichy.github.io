@@ -1,7 +1,7 @@
 ---
 title: "Welcome"
 description: |
-  I'm a postdoctoral research fellow at [Economic and Social Research Institute (ESRI)](https://www.esri.ie/) in Dublin, Ireland. I work on economics relevant to climate change. In particular, I am interested in modeling and estimating climate change impacts, designing mitigation policies, and their specific implications for agriculture.
+  I'm a postdoctoral research fellow at [Economic and Social Research Institute (ESRI)](https://www.esri.ie/) in Dublin, Ireland. I work on economics relevant to climate change. In particular, I am interested in modeling and estimating climate change impacts, planning and assessing adaptation options, designing mitigation policies, and their specific implications for agriculture.
       
   I completed my PhD in economics at UMR [Paris Saclay Applied Economics (PSAE)](https://www6.versailles-grignon.inrae.fr/economie_publique) in September 2021, advised by Stéphane De Cara (INRAE). See [here](https://youtu.be/i2yW7j1fkUk?t=6) for a brief presentation
   of my PhD in French.
