@@ -6,16 +6,27 @@ description: |
   **Tools:** Applied modeling, theoretical microeconomics, systematic literature review
 ---
 
-## Journal articles
-* S. De Cara, **L. Henry** and P.A. Jayet. 2018. Optimal coverage of an emission tax in the presence of monitoring, reporting, and verification costs. ***Journal of Environmental Economics and Management***. [Publisher's link.](https://www.sciencedirect.com/science/article/pii/S0095069617302814) [Link to preprint.](https://hal.archives-ouvertes.fr/hal-01736839)
+## Work in progress
+* K. de Bruin and **L.Henry**. An economic assessment of the Paris Agreement for Ireland.
+* **L.Henry**. Farmers’ behavioral response toward threshold-based policies.
 
 ## Working papers
 * **L. Henry**. Adapting Geographical Indication to climate change. **Conditionally accepted** at ***American Journal of Agricultural Economics***. [Link to the most recent version](https://www.dropbox.com/s/7xkynafo9epqf04/adaptation_AOC_WP.pdf?dl=0)
 * **L.Henry**. Have economists really “let down the world”? A quantitative overview of the economic literature on climate change. [Link to the most recent version](https://www.dropbox.com/s/8uyonluiloioblr/CCEcon_SystRev_WP.pdf?dl=0)
 
-## Work in progress
-* K. de Bruin and **L.Henry**. An economic assessment of the Paris Agreement for Ireland.
-* **L.Henry**. Farmers’ behavioral response toward threshold-based policies.
+## Publication
+* S. De Cara, **L. Henry** and P.A. Jayet. 2018. Optimal coverage of an emission tax in the presence of monitoring, reporting, and verification costs. ***Journal of Environmental Economics and Management***. [Publisher's link.](https://www.sciencedirect.com/science/article/pii/S0095069617302814) [Link to preprint.](https://hal.archives-ouvertes.fr/hal-01736839)
+
+## PhD Thesis
+[Essays on the economics of climate change: mitigation and adaptation in the agricultural sector](https://hal.archives-ouvertes.fr/tel-03544096/)
+
+**Supervisor:** Stéphane De Cara
+
+This thesis addresses economic issues related to climate change, from both a mitigation and an adaptation perspective and with a focus on the implications for agriculture. The three chapters collect different papers in environmental economics, agricultural economics, industrial organization and a systematic literature review. 
+
+[Presentation slides](https://www.dropbox.com/s/uvxmttgb7qtsvo0/soutenance_V2_ho.pdf?dl=0)
+
+[Brief video prsentation in French](https://youtu.be/i2yW7j1fkUk?t=6) 
 
 ## Other publications
 
