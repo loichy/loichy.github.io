@@ -18,6 +18,7 @@ description: |
 * S. De Cara, **L. Henry** and P.A. Jayet. 2018. Optimal coverage of an emission tax in the presence of monitoring, reporting, and verification costs. ***Journal of Environmental Economics and Management***. [Publisher's link.](https://www.sciencedirect.com/science/article/pii/S0095069617302814) [Link to preprint.](https://hal.archives-ouvertes.fr/hal-01736839)
 
 ## PhD Thesis
+
 [Essays on the economics of climate change: mitigation and adaptation in the agricultural sector](https://hal.archives-ouvertes.fr/tel-03544096/)
 
 **Supervisor:** Stéphane De Cara
@@ -26,7 +27,7 @@ This thesis addresses economic issues related to climate change, from both a mit
 
 [Presentation slides](https://www.dropbox.com/s/uvxmttgb7qtsvo0/soutenance_V2_ho.pdf?dl=0)
 
-[Brief video prsentation in French](https://youtu.be/i2yW7j1fkUk?t=6) 
+[Brief video presentation in French](https://youtu.be/i2yW7j1fkUk?t=6) 
 
 ## Other publications
 

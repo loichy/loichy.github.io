@@ -1,20 +1,22 @@
 ---
 title: "Welcome"
 description: |
-  I'm a postdoctoral research fellow at [Economic and Social Research Institute (ESRI)](https://www.esri.ie/) in Dublin, Ireland. I work on economics relevant to climate change. In particular, I am interested in modeling and estimating climate change impacts, planning and assessing adaptation options, designing mitigation policies, and their specific implications for agriculture.
+  I'm an assistant professor at [LEDa, Université Paris-Dauphine](https://leda.dauphine.fr/) in Paris, France. I work on economics relevant to climate change. In particular, I am interested in modeling and estimating climate change impacts, planning and assessing adaptation options, designing mitigation policies, and their specific implications for agriculture.
       
+  Prior to that, I was Postdoctoral Research Fellow at [the Economic and Social Research Institute (ESRI)](https://www.esri.ie/) in Dublin, Ireland. 
+  
   I completed my PhD in economics at UMR [Paris-Saclay Applied Economics (PSAE)](https://www6.versailles-grignon.inrae.fr/economie_publique) in September 2021, advised by Stéphane De Cara (INRAE). See [here](https://youtu.be/i2yW7j1fkUk?t=6) for a brief presentation
   of my PhD in French.
   
 ---
 
 ## Curriculum
-* **2021-** Postdoctoral research fellow at [Economic and Social Research Institute (ESRI)](https://www.esri.ie/)
+* **2022-** Assistant professor at [LEDa, Université Paris-Dauphine](https://leda.dauphine.fr/)
+* **2021-2022** Postdoctoral research fellow at [Economic and Social Research Institute (ESRI)](https://www.esri.ie/)
 * **2017-2021** PhD candidate at [Paris-Saclay Applied Economics (PSAE)](https://www6.versailles-grignon.inrae.fr/economie_publique). Advisor: Stéphane De Cara
 * **2017-2021** Assistant lecturer at ENS Paris-Saclay.
 * **2016-2017** Visiting student at [Motu (Wellington, New Zealand).](https://www.motu.nz/)
 * **2015-2016** Master 2, Université Paris Saclay, [Economie de l'énergie de l'environnement et des transports.](https://www.universite-paris-saclay.fr/en/education/master/environmental-energy-and-transport-economics/m2-economie-du-developpement-durable-et-de-lenvironnement)
-* **2014-2015** Master 1, Economie Théorique et Empirique, Université Paris 1.
 
 Link for detailed CVs [in English](https://www.dropbox.com/s/xb7yallo057aeoy/CV_2022.pdf?dl=0) and [in French](https://www.dropbox.com/s/20tl346lbuwibgu/CV_2022_fr.pdf?dl=0)
 

@@ -11,11 +11,11 @@ links:
   - label: GitHub
     url: "https://github.com/loichy"
   - label: Email
-    url: "mailto:loic.henry@esri.ie"
+    url: "mailto:loic.henry@dauphine.psl.eu"
 output:
   postcards::jolla
 site: distill::distill_website
 ---
 **Welcome!**
 
-I'm a postdoctoral research fellow at [Economic and Social Research Institute (ESRI)](https://www.esri.ie/) in Dublin, Ireland. I work on **economics relevant to climate change**. In particular, I am interested in modeling and estimating climate change impacts, planning and assessing adaptation options and designing mitigation policies, mostly by developing applied modeling tools.
+I'm an assistant professor at [LEDa, Université Paris-Dauphine](https://leda.dauphine.fr/) in Paris, France. I work on **economics relevant to climate change**. In particular, I am interested in modeling and estimating climate change impacts, planning and assessing adaptation options and designing mitigation policies, mostly by developing applied modeling tools.
