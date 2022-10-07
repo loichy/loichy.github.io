@@ -4,7 +4,7 @@ description: |
 ---
 
 ### Micro-econometrics (2022), M1 AID, Université Pars-Dauphine
-Teaching assistant for Philippe De Vreyer, in the first year of the [Master AID](https://dauphine.psl.eu/en/training/masters-degrees/international-affairs-and-development). Bonjour
+Teaching assistant for Philippe De Vreyer, in the first year of the [Master AID](https://dauphine.psl.eu/en/training/masters-degrees/international-affairs-and-development).
 
 ### Advanced econometrics (2021), M1 Master of Economics, Université Paris-Saclay
 Teaching assistant for Hugo Molina, Julien Monardo and Margherita Comola in the first year of the [Master of Economics](https://www.universite-paris-saclay.fr/formation/master/economie/m1-economics#programme). Practical econometric classes on the basic techniques of non-linear econometrics (including nonlinear least squares, maximum likelihood estimator, discrete choice models, sample selection models) and recent developments in the microeconomic analysis of impact evaluation (including randomized controlled experiments, instrumental variables, matching methods, regression discontinuity and difference-in-differences). [Link to syllabus](https://www.dropbox.com/s/h7g93zrn1c74s5s/TutorialsProgram.pdf?dl=0).
