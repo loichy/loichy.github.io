@@ -11,10 +11,10 @@ description: |
 * **L.Henry**. Farmers’ behavioral response toward threshold-based policies.
 
 ## Working papers
-* **L. Henry**. Adapting Geographical Indication to climate change. **Conditionally accepted** at ***American Journal of Agricultural Economics***. [Link to the most recent version](https://www.dropbox.com/s/7xkynafo9epqf04/adaptation_AOC_WP.pdf?dl=0)
 * **L.Henry**. Have economists really “let down the world”? A quantitative overview of the economic literature on climate change. [Link to the most recent version](https://www.dropbox.com/s/8uyonluiloioblr/CCEcon_SystRev_WP.pdf?dl=0)
 
 ## Publication
+* **L. Henry**. Adapting the Designated Area of Geographical Indications to Climate Change. Forthcoming at ***American Journal of Agricultural Economics***. (This article previously circulated under the name "Adapting Geographical Indication to climate change".) [Link to preprint.](https://www.dropbox.com/s/lo34d5ke7g3s7h4/adapting_GIs_preprint.pdf?dl=0). [Link to supplementary appendix.](https://www.dropbox.com/s/elboli8ocpj4g2d/SupplementaryAppendix.pdf?dl=0)
 * S. De Cara, **L. Henry** and P.A. Jayet. 2018. Optimal coverage of an emission tax in the presence of monitoring, reporting, and verification costs. ***Journal of Environmental Economics and Management***. [Publisher's link.](https://www.sciencedirect.com/science/article/pii/S0095069617302814) [Link to preprint.](https://hal.archives-ouvertes.fr/hal-01736839)
 
 ## PhD Thesis
