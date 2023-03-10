@@ -3,7 +3,10 @@ title: "Teaching"
 description: |
 ---
 
-### Micro-econometrics (2022), M1 AID, Université Pars-Dauphine
+### Econometrics (2022-), L3 EID-EIF, Université Pars-Dauphine
+Linear econometrics and ordinary least squares estimator. [International and Development Economics - Bachelor's Year 3](https://dauphine.psl.eu/en/training/bachelors-degrees/bachelors-degree-in-applied-economics/bachelors-year-3-international-economics-and-development).
+
+### Micro-econometrics (2022-), M1 AID, Université Pars-Dauphine
 Teaching assistant for Philippe De Vreyer, in the first year of the [Master AID](https://dauphine.psl.eu/en/training/masters-degrees/international-affairs-and-development).
 
 ### Advanced econometrics (2021), M1 Master of Economics, Université Paris-Saclay
