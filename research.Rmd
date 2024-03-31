@@ -26,12 +26,7 @@ systems. ***Motu Working Paper***. [Link to working paper](http://motu-www.motu.
 
 ## PhD Thesis
 
-[Essays on the economics of climate change: mitigation and adaptation in the agricultural sector](https://hal.archives-ouvertes.fr/tel-03544096/)
-
-[Presentation slides](https://www.dropbox.com/s/uvxmttgb7qtsvo0/soutenance_V2_ho.pdf?dl=0)
-
-[Brief video presentation in French](https://youtu.be/i2yW7j1fkUk?t=6) 
-
+Manuscript: [Essays on the economics of climate change: mitigation and adaptation in the agricultural sector](https://hal.archives-ouvertes.fr/tel-03544096/), with link to the [Presentation slides](https://www.dropbox.com/s/uvxmttgb7qtsvo0/soutenance_V2_ho.pdf?dl=0), and a [brief video presentation in French](https://youtu.be/i2yW7j1fkUk?t=6).
 
 
 ```{r setup, include=FALSE}
