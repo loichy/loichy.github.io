@@ -4,11 +4,9 @@ description: |
 ---
 ## Current teaching
 
-### Panel data econometrics applied to environmental and agricultural economics (2023-), M1 AID, Université Pars-Dauphine.
-[Link to syllabus](https://www.dropbox.com/scl/fi/5n7xt18fcxx9dxe8zsqem/Syllabus_Panel.pdf?rlkey=sfekfoas1grzfzus5y6ikdmrr&dl=0)
+### Panel data econometrics applied to environmental and agricultural economics (2023-), M1 AID, Université Pars-Dauphine. [Link to syllabus](https://www.dropbox.com/scl/fi/5n7xt18fcxx9dxe8zsqem/Syllabus_Panel.pdf?rlkey=sfekfoas1grzfzus5y6ikdmrr&dl=0)
 
-### Macroeconomics of the environmental transition (2023-), Sustainability Science Program, 2nd year, PSL.
-[Link to syllabus](https://www.dropbox.com/scl/fi/5n7xt18fcxx9dxe8zsqem/Syllabus_Panel.pdf?rlkey=sfekfoas1grzfzus5y6ikdmrr&dl=0) and [link to tutorial program](https://www.dropbox.com/scl/fi/pgja1ypj5jc1na2counmf/Tutorial_instructions.pdf?rlkey=3za4n4d5n7pxzse8tg6b0194w&dl=0)
+### Macroeconomics of the environmental transition (2023-), Sustainability Science Program, 2nd year, PSL. [Link to syllabus](https://www.dropbox.com/scl/fi/5n7xt18fcxx9dxe8zsqem/Syllabus_Panel.pdf?rlkey=sfekfoas1grzfzus5y6ikdmrr&dl=0) and [link to tutorial program](https://www.dropbox.com/scl/fi/pgja1ypj5jc1na2counmf/Tutorial_instructions.pdf?rlkey=3za4n4d5n7pxzse8tg6b0194w&dl=0)
 
 ### Econometrics (2022-), L3 EID-EIF, Université Pars-Dauphine
 Linear econometrics and ordinary least squares estimator. [International and Development Economics - Bachelor's Year 3](https://dauphine.psl.eu/en/training/bachelors-degrees/bachelors-degree-in-applied-economics/bachelors-year-3-international-economics-and-development).
