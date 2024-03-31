@@ -1,16 +1,15 @@
 ---
-title: "Welcome"
+title: "About me"
 description: |
-  I'm an assistant professor at [LEDa, Université Paris-Dauphine](https://leda.dauphine.fr/) in Paris, France. I work on economics relevant to climate change. In particular, I am interested in modeling and estimating climate change impacts, planning and assessing adaptation options, designing mitigation policies, and their specific implications for agriculture.
-      
-  Prior to that, I was Postdoctoral Research Fellow at [the Economic and Social Research Institute (ESRI)](https://www.esri.ie/) in Dublin, Ireland. I completed my PhD in economics at UMR [Paris-Saclay Applied Economics (PSAE)](https://www6.versailles-grignon.inrae.fr/economie_publique) in September 2021, advised by Stéphane De Cara (INRAE). See [here](https://youtu.be/i2yW7j1fkUk?t=6) for a brief presentation
-  of my PhD in French.
-  
+  I'm an assistant professor at [LEDa, Université Paris-Dauphine](https://leda.dauphine.fr/) in Paris, France. I work on economics relevant to climate change. In particular, I am interested in modeling and estimating climate change impacts, planning and assessing adaptation options, designing mitigation policies, and their specific implications for agriculture. I co-organize the [Dauphine economics seminar](https://leda.dauphine.fr/fr/seminaire-externe/seminaire-leda.html). 
 ---
 
-## Curriculum
+  <!-- Prior to that, I was Postdoctoral Research Fellow at [the Economic and Social Research Institute (ESRI)](https://www.esri.ie/) in Dublin, Ireland. I completed my PhD in economics at UMR [Paris-Saclay Applied Economics (PSAE)](https://www6.versailles-grignon.inrae.fr/economie_publique) in September 2021, advised by Stéphane De Cara (INRAE). See [here](https://youtu.be/i2yW7j1fkUk?t=6) for a brief presentation -->
+  <!-- of my PhD in French. -->
+
+## Employment and education
 * **2022-** Assistant professor at [LEDa, Université Paris-Dauphine](https://leda.dauphine.fr/)
-* **2021-2022** Postdoctoral research fellow at [Economic and Social Research Institute (ESRI)](https://www.esri.ie/)
+* **2021-2022** Postdoctoral research fellow at [Economic and Social Research Institute (ESRI, Dublin, Ireland)](https://www.esri.ie/)
 * **2017-2021** PhD candidate at [Paris-Saclay Applied Economics (PSAE)](https://www6.versailles-grignon.inrae.fr/economie_publique). Advisor: Stéphane De Cara
 * **2017-2021** Assistant lecturer at ENS Paris-Saclay.
 * **2016-2017** Visiting student at [Motu (Wellington, New Zealand).](https://www.motu.nz/)
@@ -18,7 +17,7 @@ description: |
 
 <!-- Link for detailed CVs [in English](https://www.dropbox.com/s/m2e4o6vnadagfup/CV_2023.pdf?dl=0) and [in French](https://www.dropbox.com/s/udqsjfat0m8p714/CV_2023_fr.pdf?dl=0) -->
 
-For the list of publications, see the [Research page](https://loichy.github.io/research.html).
+For the list of publications and current research, see the [Research page](https://loichy.github.io/research.html).
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
