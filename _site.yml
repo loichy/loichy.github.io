@@ -16,7 +16,7 @@ navbar:
     # image: 
     href: https://loichy.github.io/
   right:
-    - text: "About"
+    - text: "About me"
       href: curriculum.html
     - text: "Research"
       href: research.html
