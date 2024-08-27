@@ -18,4 +18,4 @@ site: distill::distill_website
 ---
 **Welcome!**
 
-I'm an assistant professor at [LEDa, Université Paris-Dauphine](https://leda.dauphine.fr/) in Paris, France. I work on **economics relevant to climate change**. In particular, I am interested in modeling and estimating climate change impacts, planning and assessing adaptation options and designing mitigation policies, mostly by developing applied modeling tools.
+I'm an assistant professor at [LEDa, Université Paris-Dauphine](https://leda.dauphine.fr/) in Paris, France. I work on **economics relevant to climate change**. In particular, I am interested in estimating climate change impacts, assessing adaptation options and designing optimal mitigation policies, mostly by using applied modeling tools.

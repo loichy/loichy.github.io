@@ -1,7 +1,7 @@
 ---
 title: "About me"
 description: |
-  I'm an assistant professor at [LEDa, Université Paris-Dauphine](https://leda.dauphine.fr/) in Paris, France. I work on economics relevant to climate change. In particular, I am interested in modeling and estimating climate change impacts, planning and assessing adaptation options, designing mitigation policies, and their specific implications for agriculture. I co-organize the [Dauphine economics seminar](https://leda.dauphine.fr/fr/seminaire-externe/seminaire-leda.html). 
+  I'm an assistant professor at [LEDa, Université Paris-Dauphine](https://leda.dauphine.fr/) in Paris, France. I work on economics relevant to climate change. In particular, I am interested in estimating climate change impacts, assessing adaptation options and designing optimal mitigation policies, mostly by using applied modeling tools. I co-organize the [Dauphine economics seminar](https://leda.dauphine.fr/fr/seminaire-externe/seminaire-leda.html). 
 ---
 
   <!-- Prior to that, I was Postdoctoral Research Fellow at [the Economic and Social Research Institute (ESRI)](https://www.esri.ie/) in Dublin, Ireland. I completed my PhD in economics at UMR [Paris-Saclay Applied Economics (PSAE)](https://www6.versailles-grignon.inrae.fr/economie_publique) in September 2021, advised by Stéphane De Cara (INRAE). See [here](https://youtu.be/i2yW7j1fkUk?t=6) for a brief presentation -->
