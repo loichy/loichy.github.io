@@ -8,7 +8,7 @@ description: |
 co-taught with Romain Plassard. 
 
 * **PhD Topic (2025), Université Paris-Dauphine - PSL.**
-Weather and Climate Projections Data for Economics: An Introduction. [**Slides**](phdtopic-slides/PresentationSlides.html)
+Weather and Climate Projections Data for Economics: An Introduction. [**Slides**](phdtopic-slides/PresentationSlides.html), and [**Source Materials**](https://github.com/loichy/WeatherData_Economics.git)
 
 * **Panel data econometrics applied to environmental and agricultural economics (2023-), M1 AID, Université Paris-Dauphine - PSL. **
 [**Link to syllabus**](https://www.dropbox.com/scl/fi/5n7xt18fcxx9dxe8zsqem/Syllabus_Panel.pdf?rlkey=sfekfoas1grzfzus5y6ikdmrr&dl=0)
