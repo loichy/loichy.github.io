@@ -17,7 +17,7 @@ description: |
 
 <!-- Link for detailed CVs [in English](https://www.dropbox.com/s/m2e4o6vnadagfup/CV_2023.pdf?dl=0) and [in French](https://www.dropbox.com/s/udqsjfat0m8p714/CV_2023_fr.pdf?dl=0) -->
 
-For the list of publications and current research, see the [Research page](https://loichy.github.io/research.html).
+<!-- For the list of publications and current research, see the [Research page](https://loichy.github.io/research.html). -->
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
