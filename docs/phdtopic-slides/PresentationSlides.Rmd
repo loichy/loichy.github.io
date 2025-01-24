@@ -34,8 +34,7 @@ meta() %>%
   meta_name("github-repo" = "loichy/WeatherData_Economics") %>% 
   meta_social(
     title = "Weather and Climate Projections Data for Economics &#8212; An Introduction",
-    url = "https://spcanelon.github.io/xaringan-basics-and-beyond/slides/day-01-basics.html#1",
-    image = "https://raw.githubusercontent.com/spcanelon/xaringan-basics-and-beyond/main/slides/day-01-cover-image.png",
+    url = "https://loichy.github.io/phdtopic-slides/PresentationSlides.html#1",
     image_alt = "Title slide for the PhD Topic on Weather and Climate Projections Data for Economics ",
     og_type = "website",
     og_author = "Loic Henry"
@@ -917,22 +916,4 @@ The **xaringan** package borrowed a few terms from Naruto, such as
 
 You can click the links to know more about them if you want. The jutsu "Moon Reader" may seem a little evil, but that does not mean your slides are evil.
 
----
 
-class: center
-
-# Hand seals (印)
-
-Press `h` or `?` to see the possible ninjutsu you can use in remark.js.
-
-![](https://upload.wikimedia.org/wikipedia/commons/7/7e/Mudra-Naruto-KageBunshin.svg)
-
----
-
-class: center, middle
-
-# Thanks!
-
-Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
-
-The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](https://yihui.org/knitr/), and [R Markdown](https://rmarkdown.rstudio.com).
