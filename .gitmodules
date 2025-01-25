@@ -1,6 +1,0 @@
-[submodule "phdtopic-slides"]
-	path = phdtopic-slides
-	url = https://github.com/loichy/WeatherData_Economics.git
-[submodule "WeatherData_Economics"]
-	path = WeatherData_Economics
-	url = https://github.com/loichy/WeatherData_Economics.git
