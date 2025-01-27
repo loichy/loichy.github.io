@@ -1,0 +1,3 @@
+[submodule "phdtopic"]
+	path = phdtopic
+	url = https://github.com/loichy/PhDTopic_ClimateData.git
