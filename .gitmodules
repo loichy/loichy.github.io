@@ -1,3 +1,6 @@
 [submodule "phdtopic"]
 	path = phdtopic
 	url = https://github.com/loichy/PhDTopic_ClimateData.git
+[submodule "EconomieNature_Slides"]
+	path = EconomieNature_Slides
+	url = https://github.com/loichy/EconomieNature_Slides.git
