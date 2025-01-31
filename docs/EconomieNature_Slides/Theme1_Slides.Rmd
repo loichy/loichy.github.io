@@ -1,0 +1,692 @@
+---
+title: "Dans quelle mesure la transition écologique peut-elle s'articuler avec la croissance économique?"
+subtitle: "Thème 1 - Economie de l'environnement"
+author: "Loïc Henry"
+institute: "M1 AID, Université Paris-Dauphine -- PSL"
+date: "29/01/2025 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    # chakra: libs/remark-latest.min.js # To make work slides offline
+    css: 
+      - xaringan-themer.css
+      - css/mytheme.css
+      - css/mytheme-fonts.css
+    lib_dir: libs
+    self_contained: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+---
+```{r meta, echo=FALSE, warning=FALSE}
+library(metathis)
+meta() %>%
+  meta_general(
+    description = "Weather and Climate Projections Data for Economics: An Introduction",
+    generator = "xaringan and remark.js"
+  ) %>% 
+  meta_name("github-repo" = "loichy/WeatherData_Economics") %>% 
+  meta_social(
+    title = "Weather and Climate Projections Data for Economics &#8212; An Introduction",
+    url = "https://loichy.github.io/phdtopic/Slides.html#1",
+    image_alt = "Title slide for the PhD Topic on Weather and Climate Projections Data for Economics ",
+    og_type = "website",
+    og_author = "Loic Henry"
+  )
+```
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+# Install packages from Github (if needed)
+# remotes::install_github("rstudio/fontawesome")
+# remotes::install_github("mitchelloharawild/icons")
+
+# Load packages
+library(knitr)
+library(tidyverse)
+library(fontawesome)
+library(xaringanExtra)
+library(icons)
+
+```
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  base_color = "#2f4486", 
+  colors = c(
+    DarkBlue = "#003087",
+    Blue = "#2f4486",
+    BrightBlue = "#4d6fdb",
+  
+    Black = "#231F20",
+    DarkGrey = "#425563",
+    MidGrey = "#768692",
+    PaleGrey = "#E8EDEE",
+    White = "#FFFFFF",
+    
+    DarkGreen = "#006747",
+    Green = "#009639",
+    AquaGreen = "#00A499",
+    
+    Purple = "#330072",
+    DarkPink = "#7C2855",
+    Pink = "#AE2573",
+    DarkRed = "#8A1538",
+    Red = "#DA291C",
+    
+    MyBlue = "#122140",
+    MyYellow = "#e5bf00",
+    Gold = "#86712f",
+    
+    MyPurple = "#822f86",
+    MyRed = "#862f44",
+    MyPink = "#c09090",
+    MyGreen = "#44862f"
+    )
+  )
+  # header_font_google = google_font("Josefin Sans"),
+  # text_font_google   = google_font("Montserrat", "300", "300i"),
+  # code_font_google   = google_font("Fira Mono")
+
+
+```
+
+```{r xaringan-Extra, include=FALSE, warning=FALSE}
+# remotes::install_github("gadenbuie/xaringanExtra")
+library(xaringanExtra)
+xaringanExtra::use_tile_view()
+# xaringanExtra::use_share_again()
+# xaringanExtra::style_share_again(share_buttons = c("twitter", "linkedin", "pocket"))
+
+```
+
+```{r load_refs, include=FALSE, cache=FALSE}
+library(RefManageR)
+RefManageR::BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           # cite.style = "alphabetic",
+           style = "markdown",
+           hyperlink = TRUE,
+           dashed = TRUE)
+bib <- RefManageR::ReadBib("./myBib.bib", check = FALSE)
+
+
+```
+
+class: left
+name: intro
+
+## Introduction
+### La croissance et les gains de bien-être
+
+**Croissance** .White.bg-Gold[comme augmentation continue de la quantité et qualité de biens et services produits par tête] 
+
+Assimilée comme amélioration de **bien-être**
+
+Notamment car, **les 150 dernières années** sont marquées par une croissance de l'activité économique à l'échelle mondiale qui s'est accompagnée de **gains de bien-être.**
+
+---
+### Les résultats de la croissance et du développement depuis WWII (I)
+
+.pull-left-narrow[.right[
+`r fontawesome::fa("coins")`
+]]
+.pull-right-wide[
+.White.bg-Gold[Niveau de vie:]
+* Multiplication par 4,4 du revenu par habitant depuis 1950 en moyenne dans le monde, et par 13 de la production économique
+* Part de la popuation en situation de pauvreté extrême (US$2,15/jour) passée de 60% en 1950 à 8% aujourd'hui
+]
+
+.pull-left-narrow[.right[
+`r fontawesome::fa("shield-heart")`
+]]
+.pull-right-wide[
+.White.bg-Gold[Santé et démographie:]
+* Espérance de vie mondiale passée de 45 ans en 1950 à 70 ans aujourd'hui
+* Triplement de la population mondiale
+]
+
+---
+
+### Les résultats de la croissance et du développement depuis WWII (II)
+
+.pull-left-narrow[.right[
+`r fontawesome::fa("school")`
+]]
+.pull-right-wide[
+.White.bg-Gold[Education:]
+* Chute du taux d'analphabétisme de 64% à 13%
+* Le taux de scolarisation des filles dans l'enseignement primaire est passé d'environ 51% en 1950 à 88% en 2018 (Our World in Data)
+]
+
+.pull-left-narrow[.right[
+`r fontawesome::fa("building-columns")`
+]]
+.pull-right-wide[
+.White.bg-Gold[Politique:] En 1945, un tiers de la population mondiale vivait dans des colonies et 10% dans des démocraties. Désormais, presque 0 colonie, et plus de 29% de la population vit dans des démocraties (UNCCD, 2024)
+]
+
+---
+### Des gains de bien-être fragiles: des contreparties économiques et sociales
+
+* .White.bg-Gold[Le développement est inégalement réparti sur la planète], notamment le progrès a été moins fort en **Afrique**:
+  * Taux d'analphabétisme supérieur à 32% en Afrique centrale, 20% en Afrique du Nord
+  * Les inégalités au sein des pays a augmenté depuis les année 80 (Chancel et al, 2021)
+  
+* .White.bg-Gold[Peu d'avancées démocratiques dans les années récentes]: **augmentation des pouvoirs autocratiques et du populisme**, déclin de la liberté de presse, et marginalisation continue ou persécution de certains groupes religieux, sociaux ou raciaux
+
+* .White.bg-Gold[Augmentation des tensions internationales les 20 dernières années:] internationalisation des conflits (Global Peace Index)
+
+---
+### Des contreparties écologiques à la croissance (I)
+ 
+Une **croissance de l'activité économique** soutenue par une .White.bg-Gold[croissance de la consommation d'énergie]
+
+.pull-left[
+.center[**Empreinte carbone (France)**
+<img src="img/empreintecarb.png" height="350" />
+]
+.righ[INSEE (2023)]
+]
+.pull-right[
+.center[**Emissions de GES (monde)**
+<img src="img/ipcc2.png" height="350" />
+]
+.right[GIEC (2023)]
+]
+
+---
+
+### Des contreparties écologiques à la croissance (II)
+ 
+Une **croissance de l'activité économique** soutenue par une .White.bg-Gold[croissance de la consommation de matériaux] 
+
+.center[**Empreinte matériaux**
+<img src="img/materialfootprint.jpeg" height="350" />
+]
+.right[`r RefManageR::Citet(bib, "wiedmann")`]
+
+---
+class: left, top
+background-image: url("img/total.jpg")
+background-size: contain
+
+[Campagne de publicité de Total, 1964. Archives mises en ligne par Nicolas Bergon.](http://www.auto-pub.net/page_Total_1960-1980.htm)
+
+
+---
+class: center, bottom, inverse
+background-image: url("img/bensalman.jpg")
+background-size: cover
+
+.left[## ''We will monetize every molecule of energy this land has, period.'']
+
+.left[Abdel Aziz Ben Salman, Ministre saoudien de l'énergie]
+---
+### Opérer un changement
+
+**Enrayer les crises écologiques pour limiter les pertes de bien-être** 
+
+* Besoin d'un nouveau paradigme du développement pour orienter nos utilisations futures des ressources et réduire l'empreinte de l'homme sur la planète
+
+  * La .White.bg-Gold[transition écologique]
+
+* La rapidité des changements structurels, systémiques et technologiques et l'importance accordée à l'investissement et à l'innovation sont au cœur de la nouvelle histoire de la croissance
+  * **Décroître les émissions de 43% pour 1.5°C ou de 30% pour 2°C d'ici 5 ans**
+  * .White.bg-Gold[L'investissement pour atteindre l'objectif zéro émission nette est d'environ 3% du PIB par an] (Rapport Pisani-Ferry Mahfouz, 2023) 
+  * Cibler des investissements aux **retombées importantes en termes de productivité, de nouvelles opportunités et d'environnement**
+    * Aborder simultanément : santé/éducation ; inégalités/cohésion sociale ; climat/biodiversité
+    
+---
+### La transition écologique
+		
+Définir la .White.bg-Gold[transition] 
+.pull-left-narrow[
+ Définition du GIEC (AR6, 2022)
+]
+.pull-right-wide[
+Le .White.bg-Gold[processus de changement] **d'un état ou d'une condition à un autre** sur une période donnée. La transition peut se produire au niveau des individus, des entreprises, des villes, des régions et des nations, et peut être basée sur un changement .White.bg-Gold[incrémental ou transformateur.]
+]
+
+--
+
+Une définition **large** :
+* Un terme débattu 
+  * .White.bg-Gold[La sobriété] est moins utilisée, et encore moins pour .White.bg-Gold[la décroissance]
+  * [J-B Fressoz, ''Sans transition'':](https://www.youtube.com/watch?v=p5VEy2IjDMs) une histoire de la transition énergétique, où nous n'observons pas de transitions/substitutions dans les sources d'énergie au fil du temps
+* Choix du qualificatif .White.bg-Gold[incrémental ou transformateur] **a de l'importance** 
+
+---
+### Energie consommée lors de la révolution industrielle
+
+.center[
+<img src="img/energy_eng.png" height="450" />
+
+**Consommation d’énergie par personne (MJ) en Angleterre et
+Pays de Galle et en Italie**
+
+]
+
+---
+### Une transition incrémentale ou en profondeur
+
+* Prochain cours avec Romain Plassard, vous verrez la manière avec laquelle les économistes réfléchissent à une **transition en profondeur.**
+  * .White.bg-Gold[N. Georgescu-Rogen] et .White.bg-Gold[l'économie écologique]: la nécessité d'un changement de paradigme pour envisager une transition écologique, et la **défiance du marché pour organiser une transition**
+
+--
+
+* Aujourd'hui, le cas d'une **transition souple** ou incrémentale
+  * **Croyance au marché** pour poursuivre l'allocation des ressources .White.bg-Gold[tout en modifiant les incitations à la marge]
+
+---
+### Concevoir la compatibilité entre transition écologique et croissance
+
+Opérer **un important changement du système de production** à l'aide de .White.bg-Gold[taxes et de subventions] de sorte à réallouer les ressources (ou facteurs de production) pour:
+
+1. **Améliorer l'efficacité de l'utilisation des ressources**
+
+2. **Réduire les déchets de la production économique** pour en refaire de nouveaux inputs (recycler)
+
+3. **Des nouveaux travailleurs**, formé à la transition et par la transition (learning by doing) et qui sont en bonne santé
+
+4. **Bâtir un nouveau capital productif, plus solide et productif:** accroître les investissements
+
+5. **Accroître les rendements des nouvelles technologie**
+
+--
+
+Une .White.bg-Gold[histoire de moyen et long terme] pour concevoir un autre système de croissance permettant un développement à basse empreinte écologique, car le système actuel de croissance est auto-destructeur
+
+---
+### Le progrès technique comme mécanisme de conciliation du développement et de la transition
+
+En particulier:  .White.bg-Gold[importance de la recherche et développement]
+  * **Former des individus** qui pensent et conçoivent différemment leur rapport avec le monde vis-à-vis des générations antérieures 
+  * **Faire émerger des technologies nouvelles plus économes en ressources**
+
+**Est-ce envisageable et comment?** Avec quels **instruments de politique économique**?
+  * Le cas des .White.bg-Gold[modèles à progrès technique orienté] développés depuis les années 2000
+
+---
+### Le progrès technique et la protection de l'environnement
+
+Deux exemples où le progrès technique a permis de résoudre une crise écologique:
+
+* .White.bg-Gold[Clean Air Act (1970):] 
+  * l'une des premières lois environnementales américaines. 
+  * Impose une réduction de la concentration en dioxide de soufre de l'air
+  * Développement des **pots catalytiques** en réaction à la politique
+  
+--
+
+* .White.bg-Gold[Le protocole de Montréal (1988):]
+  * Un protocole international pour protéger la couche d'ozone
+  * Produits réfrégirants (chlorofluocarbures, CFC)
+  * Accord sur les substances à banir et un calendrier de réduction
+  * Développement de produits réfrigérants alternatifs
+
+---
+class: center, middle, inverse
+background-image: url("img/solar.avif")
+background-size: cover
+
+## Fournir de manière durable des gains de bien-être en orientant le progrès technique vers l'effort de transition
+
+---
+
+## Moteurs d'une nouvelle histoire de la croissance (1/3)
+.White.bg-Gold[Des coûts des nouvelles technologies plus bas]:
+  * Effets de **découvertes/innovations**, **effets d'échelle**, **effets de réseaux**
+
+.pull-left[
+.center[
+<img src="img/solar.png" height="350" />
+]
+].pull-right[
+.center[
+<img src="img/rr.png" height="350" />
+]
+]
+---
+
+## Moteurs d'une nouvelle histoire de la croissance (2/3)
+.pull-left[
+.White.bg-Gold[l'apprentissage par la pratique] (*learning-by-doing*) et .White.bg-Gold[les innovations induites]
+* Des .White.bg-Gold[points de basculement technologiques]: par **effets d'apprentissage**, la technologie devient plus efficace, et par économies d'échelles, les coûts peuvent devenir plus bas que ceux des opérateurs historiques, et ainsi attirer de nouveux investissements et de nouveaux marchés.
+]
+.pull-right[
+<img src="img/tipping.png" height="400" />
+]
+
+
+---
+
+## Moteurs d'une nouvelle histoire de la croissance (3/3)
+
+.White.bg-Gold[L'amélioration de l'efficacité des ressources]:
+.pull-left[
+* Un **découplage relatif**
+* La productivité de l'utilisation des ressources a augmenté d'environ 40% entre 2000 et 2017 (OCDE, 2021)
+]
+.pull-right[
+.center[
+<img src="img/decoupling.png" height="400" />
+]
+]
+
+---
+## Les modèles de progrès technique orientés ou dirigés
+
+* Tous ces moteurs partagent un point commun: .White.bg-Gold[la mise en oeuvre d'activités de R&D pour se déclencher]
+
+* Replaçons dans le cadre standard de l'analyse économique de la croissance. Les déterminants de l’accumulation de richesse sont:
+  * **nos facteurs de production**: .White.bg-Gold[le capital et le travail]
+  * Le **progrès technique** peut modifier la manière dont ses facteurs de production .White.bg-Gold[incorporent les ressources] dans le processus de production
+  * **Orienter/diriger le progrès technique:** c'est-à-dire favoriser l'émergence d'un progrès technique réduisant la quantité de ressources nécessaires à la production et les déchets (pollution)
+  
+* Il s'agit des mécanismes de la .White.bg-Gold[croissance endogène]:
+  * La formation de travailleurs adaptés aux enjeux de la transition
+  * La formation d'un capital matériel plus économe en ressources (investissements) 
+  * Et le déploiement de nouvelles technologies (modification de la fonction de production)
+
+---
+## Une vision néo-classique de la transition écologique
+
+* S'inscrit dans la lignée des modèles de croissance endogène:
+  * `r RefManageR::Citet(bib, "romer")`: *Increasing Returns and Long-Run Growth*`
+  * `r RefManageR::Citet(bib, "lucas")`: *On the mechanic of economic development *
+  * `r RefManageR::Citet(bib, "aghiona")`: *A Model of Growth Through Creative Destruction*
+
+* La croissance vient du capital et du travail, et l'énergie et les matériaux ne représentent qu'une part négligeable de la valeur dans les comptes nationaux `r RefManageR::Citep(bib, "ayres")`
+
+* Georgescu-Rogen: la production économique se compose d'étapes de transformation (extraction, conversion de l'énergie en énergie utile, production de produits finis, consommation finale et élimination des déchets). 
+  * La représentations des flux de matière et d'énergie ainsi que des flux monétaires dans les modèles de croissance
+
+---
+## The Environment and Directed Technical Change
+
+`r RefManageR::Citet(bib, "acemoglu")`, ci-après AABH (2012)
+
+* L'un des premiers modèles à envisager la faisabilité de la transition avec un cadre de croissance endogène
+
+* Une situation à **double externalité**:
+  * **Externalité environnementale**, .White.bg-Gold[négative]
+  * **Externalité sur la production de connaissances**, .White.bg-Gold[positive]
+  
+--
+
+* Justifie l'intervention de l'état avec deux outils:
+  * **Un prix sur l'émission du polluant (avec une taxe)**, pour intégrer le coût social dans la décision de production
+  * **Une subvention à l'innovation**, pour internaliser le bénéfice social de la construction de connaissance ; ou **un droit de propriété temporaire sur l'innovation (brevet)** pour inciter à innover
+  * Ces deux outils vont alors interagir
+  
+???
+    * la règle de fixation d'une taxe pigouvienne au niveau du dommage marginal de la pollution n'e tient plus car 'est plus vérifiée car les coûts de réduction de la pollution sont affectés par la création de connaissance 
+
+---
+## Le cadre du modèle AABH
+
+* Modèle à **deux secteurs**, .White.bg-MyGreen[propre] et .White.bg-DarkRed[sale]
+
+* Le bien .White.bg-DarkRed[sale] est .White.bg-DarkRed[polluant]
+
+* Modélisation du comportement de création de connaissances qui vient améliorer la productivité des facteurs de production: .White.bg-Gold[endogénéisation du processus de recherche et développement]
+  * La recherche se fait **dans la technologie la plus profitable**
+  * La recherche se fait **plus facilement dans le secteur le plus avancé**, .White.bg-Gold[*build on the shoulders of giants in their own sector*]
+* Intervention publique peut rediriger le progrès technique vers les technologies propres
+  * Dans leur cas: **une subvention à la R&D** dans le .White.bg-MyGreen[secteur propre]
+
+---
+## La formalisation du modèle
+
+L'idée est de souligner des .White.bg-Gold[points clefs du modèle] pour comprendre son fonctionnement
+
+* Comprendre les **mécanismes clefs**
+  * Qui font ensuite l'objet de débats empiriques
+* Identifier les **paramètres clefs** dont le calibrage **gouverne les résultats du modèle**
+* L'article à lire pour la semaine prochaine `r RefManageR::Citep(bib, "hourcade")` nécessite de comprendre ces élèments, car il les discute amplement en détails
+  * Pourquoi lire cet article: comprendre comment les économistes discutent des hypothèses de modélisation, et débattent sur leur réalisme
+  
+* .White.bg-Gold[Voir autre support de cours]
+
+---
+## Les leçons de politique économique du modèle AABH
+
+Que nous dit le modèle AABH sur la mise en oeuvre de la transition?
+
+* Intervention .White.bg-Gold[immédiate nécessaire] car sans intervention, l'innovation se fait dans le secteur le plus avancé (.White.bg-DarkRed[polluant]).
+  * Coût de l'intervention d'autant plus important que l'avance technologique du secteur .White.bg-DarkRed[sale] est grande
+
+* **Intervention temporaire peut-être suffisante**: une fois que le gouvernement a induit une avance technologique dans le secteur .White.bg-MyGreen[propre], le progrès technique se fait dans ce secteur, si les biens .White.bg-DarkRed[sale] et .White.bg-MyGreen[propre] sont suffisamment substituables
+
+* **Une taxe carbone reste nécessaire** pour rendre le secteur .White.bg-MyGreen[propre] plus profitable et inciter la recherche dans le secteur
+
+---
+## L'exercice de simulation d'AABH (2012)
+
+.center[
+<img src="img/acemoglu.png" height="500" />
+]
+
+---
+## Des résultats du modèle discutable 
+
+La **dépendance des résultats du modèle** à .White.bg-Gold[ses hypothèses] et à .White.bg-Gold[sa calibration] 
+
+A construire pour **mercredi 5 février**, à partir de votre lecture de l'article de Hourcade, Pottier et Espagne
+  * Se concentrer sur l'introduction, la critique de la section 2.1 et de la section 3.2
+
+---
+class: center, middle
+background-image: url("img/pottier.jpg")
+background-size: contain
+
+---
+class: center, middle, inverse
+background-image: url("img/roads.avif")
+background-size: cover
+
+## L'orientation du progrès technique ne permettrait pas une transition suffisante
+
+---
+
+## Le progrès technique s'oriente vers des activités moins polluante lorsque le prix des ressources polluantes augmentent
+
+L'augmentation des prix de l'énergie fossile engendre une .White.bg-Gold[incitation] au **progrès technique dirigé**:
+
+* ''*Induced innovation and energy prices*'', `r RefManageR::Citet(bib, "popp")`
+* ''*Carbon Taxes, Path Dependency, and Directed Technical Change: Evidence from the Auto Industry*'', `r RefManageR::Citet(bib, "aghionb")`
+
+---
+## Induced innovation and energy prices (Popp, 2002)
+
+* Données de brevet dans le *domaine énergétique** aux Etats-Unis entre 1970 et 1994
+
+* Données de prix de l'énergie: un indicateur de prix de l'énergie par unité d'énergie
+
+* **Citations de brevet:** comme une mesure de l'utilité de la base existante de connaissances, ou comme une mesure du flux de connaissance induite par un brevet. Plus la citation est grande, plus ce brevet est utile à d'autres innovations.
+
+* **Résultats**: 
+  * On observe un effet positif du prix de l'énergie sur l'innovation
+  * Importance également de la quantité de la connaissance existante (rendement marginal décroissant d'un brevet au cours du temps)
+
+* **Méthode: **
+  * Identification des domaines de recherche liés à l'efficacité énergétique
+  * Identification des brevets déposés correspondants (brevets américains, acceptés, détenus par des agences publiques)
+  * Modèle économétrique expliquant le pourcentage de brevets déposés à l'année t dédiés à l'efficacité énergétique en fonction du stock de brevets existants dans le domaine et des prix de l'énergie
+
+---
+## Induced innovation and energy prices (Popp, 2002)
+
+.center[
+<img src="img/popp_2002.png" height="500" />
+]
+
+Une corrélation entre prix de l'énergie et innovations par sous-domaine énergétique. Source: `r RefManageR::Citet(bib, "popp")`
+
+---
+## Le progrès technique s'accélère lorsque le secteur moins polluant s'accroit
+
+''*Carbon Taxes, Path Dependency, and Directed Technical Change: Evidence from the Auto Industry*'', `r RefManageR::Citet(bib, "aghionb")`
+
+* Une preuve de l'effet .White.bg-Gold[Shoulder of Giant] de AABH?
+
+* Rappel des prédictions du modèle:
+  * Une augmentation du prix du pétrole augmente l’innovation dans les .White.bg-MyGreen[technologies propres]
+  * Les entreprises ayant un stock d’inventions dans le .White.bg-MyGreen[secteur propre] innovent plus dans les .White.bg-MyGreen[technologies propres]
+  * Les entreprises innovent davantage dans les .White.bg-MyGreen[technologies propres] lorsque le niveau de .White.bg-MyGreen[technologie propre] est plus élevé dans les produits proches (*local knowledge spillovers*).
+
+* A l'avantage d'utiliser des données de panel, plutôt que l'estimation de Popp qui utilise des séries temporelles
+
+---
+##''*Carbon Taxes, ...*'' (Aghion, Dechezleprêtre, Hémous et al., 2016)
+
+* Données de panel de dépots de brevet de constructeurs automobiles internationaux soumis à des chocs de prix de l’essence différents
+  * Car les prix de l'essence varie entre pays (chocs, ou taxes) et entre constructeur selon leur part de marché dans un pays
+  * Prix de l’énergie spécifique par firme: prix pondéré des différents pays en fonction de la présence de l’entreprise dans ce pays.
+
+.center[
+<img src="img/equation.png" height="50" />
+]
+
+  * PAT: Nombre de brevets déposés dans les technologies propres par l’entreprise i
+  * FP: prix de l'essence
+  * AC: Stock de connaissance utile pour les innovations propres (dépend des stocks d’innovation propres et sales de l’entreprise i et des spillovers des autres entreprises)
+
+
+---
+
+##''*Carbon Taxes, ...*'' (Aghion, Dechezleprêtre, Hémous et al., 2016)
+
+Identification des types de brevet dans les .White.bg-MyGreen[technologies propres]:
+* Electrique, hybride, Hydrogène
+
+Brevets dans les .White.bg-DarkRed[technologies sales]: 
+* Concernant le moteur à combustion
+
+Certaines des innovations dans les technologies sales augmentent l’efficacité énergétiques: 
+* .White.bg-MidGrey[Technologies grises], par exemple une amélioration de l'efficacité d'un moteur à combustion
+
+Comptage des demandes de brevets déposés **aux US, au
+Japon et en Europe**
+
+---
+class: center, middle
+background-image: url("img/table_aghion.png")
+background-size: contain
+
+---
+
+## Mais cette réallocation de l'effort de R&D n'est pas suffisant
+
+* Ces résultats suggèrent qu'une augmentation de 1% du prix de
+l’essence conduit à une augmentation légèrement inférieur à 1% du nombre de brevet (entre 0.87% et 0.97% selon le modèle)
+
+* Pas d'effets des subventions de R&D car ces subventions tendent en majorité à cibler  les gains d'efficacité énergétique (c-à-d les .White.bg-MidGrey[technologies grises])
+
+* Si l'augmentation de la taxe carbone et des subventions de la recherche en technologie propre sont les principaux outils de politique économique pour engager la transition **énergétique**...  
+
+* ... à l'heure actuelle ces politiques ne sont ni mises en place **à grande échelle**, ni **au sein d'un cadre cohérent** pour réallouer l'effort de R&D et faire émerger un progrès technique dédié à la transition
+
+---
+
+## Des politiques de soutiens aux entreprises peu efficaces en pratique
+
+.pull-left[
+.center[
+<img src="img/delatte.png" height="220" />
+]
+]
+
+.pull-right[
+* Une absence de cohérence des dépenses budgétaires (pas uniquement la R&D)
+
+* Le montant des dépenses .White.bg-MyGreen[vertes] (favorables à l’environnement sans être défavorables par ailleurs) atteint 37,5M d'euros
+
+* Dépenses publiques directement .White.bg-DarkRed[défavorables à l'environnement] de l'ordre de 20 milliards d'euros
+
+* 70 milliards d'aides directes aux entreprises et 100 milliards de crédit d'impôts dont il est délicat de déterminer l'orientation et l'effet sur l'environnement (vraisemblablement **non neutre en moyenne**)
+
+]
+
+---
+
+## Des politiques de subvention de la R&D qui ne ciblent pas suffisament les innovations propres
+
+* Des subventions en R&D peu efficaces pour améliorer la décarbonation des entreprises:
+  * En cause: un mauvais ciblage des subventions
+  * Le cas du .White.bg-Gold[Crédit d'Impôt Recherche] (CIR)
+
+* **CIR**: Une **réduction d'impôt** calculée sur la base de dépenses de R&D des firmes
+  * Montant total des réductions d'impôts sont d'un **montant supérieur aux dépenses publiques en R&D en 2021**
+
+* Un large éventail de dépenses en R&D sont éligibles au CIR  
+  * Dépenses de R&D pour des .White.bg-DarkRed[activités polluantes] sont éligibles
+
+---
+## La croissance verte n'a pour le moment pas interrogé les crises écologiques dans son ensemble
+* Absence de prise en compte d'autres crises écologiques, qui ne seraient a priori pas enrayées par la seule transition énergétique et un maintien de la croissance à long terme
+  * Dans un cadre idéal ou cette transition se réalise, on sera parvenu à découpler la production économique de sa quantité de carbone émise (réduire au minimum les émissions), mais l'activité économique croit toujours
+    * Donc croissance de l'utilisation de matériaux
+    * Donc  extension l'empreinte humaine sur terre
+    * Donc aggravation d'autres crises écologiques sur le vivant, la perturbation des cycles de l'azote dans les sols, les pollutions chimiques par exemple 
+
+---
+## La quantité exploitée de matériaux augmente
+
+.center[
+<img src="img/materialworld.png" height="500" />
+]
+
+---
+
+## Le découplage relatif de la croissance économique et de l'utilisation des ressources n'est pas suffisant
+
+* On observe des gains d'efficacité qui nous permettent d'économiser des ressources par unité de B&S produit
+
+* Si l'on imagine désormais un outil parfait de soutien à la recherche (bon ciblage), une contrainte budgétaire allégée (un budget avec un montant socialement optimal dédié aux subventions de R&D est voté), est-ce qu'il sera alors possible d'enrayer la crise écologique grâce au paradigme de la croissance verte?
+  * La croissance est une situation d'augmentation de la quantité de biens et service consommée à long terme
+  * Les crises écologiques ne seraient donc enrayées uniquement si le progrès technique permet **à terme** d'utiliser des .White.bg-Gold[quantités infimitésimales] d'énergie **et de matériaux**, **et en atténuant le déclin du vivant** (biodiversité)
+  * C'est donc une vision optimiste du potentiel technologique et un pari risqué
+
+
+
+---
+## Vers la sobriété
+
+* Une alternative à la croissance serait de stabiliser l'activité économique (a priori dans les pays riches), voire de la diminuer parcimonieusement, tout en soutenant le progrès technique
+
+* La réduction de l'empreinte écologique interviendrait alors avec certitude
+
+* Il s'agit alors ici de quitter le paradigme de la croissance, et de concevoir un chemin futur de développement avec des gains de bien-être à partir d'une stabilisation de l'activité économique
+  * Est-ce envisageable au sein d'une économie de marché?
+  * Une économie planifiée est-elle plus adaptée? 
+  * Le dernier thème traitera cette question
+---
+# References I
+
+```{r, results='asis', echo=FALSE, warning=FALSE}
+RefManageR::PrintBibliography(bib,
+                              .opts = list(bib.style = "authoryear"),
+                              start = 1,
+                              end = 5
+                              )
+```
+
+---
+# References II
+
+```{r, results='asis', echo=FALSE, warning=FALSE}
+RefManageR::PrintBibliography(bib,
+                              .opts = list(bib.style = "authoryear"),
+                              start = 6,
+                              end = 10
+                              )
+```
+
