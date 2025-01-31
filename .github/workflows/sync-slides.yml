@@ -26,11 +26,12 @@ jobs:
 
       - name: Copy Slides to Public Repo
         run: |
+          mkdir -p slides
           cp slides-temp/Theme1_Slides.html slides/ 
           cp -r slides-temp/css slides/      
           cp -r slides-temp/img slides/
           cp -r slides-temp/libs slides/
-          cp -r slides-temp/xaringan-themer.css slides/
+          cp slides-temp/xaringan-themer.css slides/
           rm -rf slides-temp
 
       - name: Commit and Push Changes
