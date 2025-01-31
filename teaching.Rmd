@@ -5,7 +5,7 @@ description: |
 ## Current teaching
 
 * **Environmental Economics (2025-), M1 AID, Université Paris-Dauphine - PSL,**
-co-taught with Romain Plassard.  **Topic 1: Growth and Ecological Transition, Slides**
+co-taught with Romain Plassard.  **Topic 1: Growth and Ecological Transition, Slides**[slides/Theme1_Slides.html]
 
 * **PhD Topic (2025), Université Paris-Dauphine - PSL.**
 Weather and Climate Projections Data for Economics: An Introduction. [**Slides**](phdtopic/Slides.html), and [**Source Materials**](https://github.com/loichy/PhDTopic_ClimateData.git)
