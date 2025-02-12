@@ -40,6 +40,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add slides/Theme1_Slides.html
+          git add slides/Theme2_Slides.html
           git add slides/css
           git add slides/img
           git add slides/libs
