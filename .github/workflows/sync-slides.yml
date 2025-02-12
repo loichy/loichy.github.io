@@ -28,6 +28,7 @@ jobs:
         run: |
           mkdir -p slides
           cp slides-temp/Theme1_Slides.html slides/ 
+          cp slides-temp/Theme2_Slides.html slides/ 
           cp -r slides-temp/css slides/      
           cp -r slides-temp/img slides/
           cp -r slides-temp/libs slides/
