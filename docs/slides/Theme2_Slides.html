@@ -45,7 +45,7 @@ class: center, middle, inverse, title-slide
 ### M1 AID, Université Paris-Dauphine – PSL
 ]
 .date[
-### 05/02/2025 (updated: 2025-02-05)
+### 05/02/2025 (updated: 2025-02-14)
 ]
 
 ---
@@ -722,19 +722,31 @@ background-size: cover
 .footnote[Photo by [Musuk Nolte](https://library.panos.co.uk/features/stories/the-river-runs-dry.html)]
 
 ---
-## Le changement climatique : une externalité globale complexe
+## Le changement climatique : une externalité globale
 
 - Les activités économiques, en brûlant des énergies fossiles, génèrent et vont générer des **effets délétères sur la planète et le bien-être**.
-- Ces effets ne sont pas inclus dans le prix de marché : ceux qui émettent ne supportent pas le coût total des émissions
+- Ces effets ne sont pas inclus dans le coût privé des décisions de production : **ceux qui produisent et consomment des B&amp;S émettent des GES et ne supportent pas le coût total de ces émissions**
 - **Externalité globale**:
-  - Une émission de GES a le même effet quelle que soit sa source géographique.
+  - Une émission de GES a le .White.bg-Gold[même effet quelle que soit sa source géographique.]
 - Les gaz à effets de serre (et en particulier le CO2) ont un **pouvoir réchauffant qui dure longtemps**
   * Après 100 ans, environ 40 % d'une émission de CO2
 reste dans l'atmosphère
-  * Prendre en compte le bien-être de plusieurs générations
-- Nous avons vu que les **impacts de cette externalité sont massifs (I.)**, **hétérogènes**, et **entourés d'incertitude**
-  * Prendre en compte l'aversion au risque et aux inégalités
-- **Comment internaliser cette externalité et à quel coût?** C'est-à-dire à quelle vitesse réduire les émissions de gaz à effets de serre? (II.)
+  * Effets de l'externalité sur le bien-être de .White.bg-Gold[plusieurs générations]
+- Nous avons vu que les **impacts de cette externalité sont massifs (Section I)**, **hétérogènes**, et **entourés d'incertitude**
+  * Prendre en compte **l'aversion au risque et aux inégalités**
+- **Dans quelle mesure internaliser cette externalité et à quel coût?** C'est-à-dire de combien faut-il réduire les émissions, et à quelle vitesse? (Section II)
+
+---
+## Concentration totale en GES (1860-2022)
+
+.center[
+
+&lt;img src="img/GHG_conc.png" height="450" /&gt;
+
+]
+.pull.right[
+Source: [European Environment Agency, 2025](https://www.eea.europa.eu/en/analysis/indicators/atmospheric-greenhouse-gas-concentrations)
+]
 
 ---
 ## Quelle trajectoire de réduction des émissions choisir?
@@ -774,13 +786,17 @@ Disposer d'un outil permettant de chosir entre ces trajectoires -&gt; trajectoir
 ---
 ## La réduction des émissions et l’effort optimal
 
-- Raisonnement économique : une analyse **coût bénéfice.**
-  - **Demande de réduction** = Bénéfice marginal de la réduction (ou dommage marginal évité des émissions).
-  - **Offre de réduction** = Coût marginal d’abattement (perte économique liée à la réduction).
+- Raisonnement économique : une analyse **coût-bénéfice** pour atteindre un objectif de réduction
+  - **Demande de réduction** = .White.bg-Gold[Bénéfice marginal de la réduction] (ou dommage marginal évité des émissions).
+  - **Offre de réduction** = .White.bg-Gold[Coût marginal d’abattement] (perte économique liée à la réduction).
 - Trouver le **niveau optimal de réduction** des émissions de GES
   * A priori, là où demande et offre de réduction s'intersecte.
-- Quel instrument? 
-  - Choix entre taxe, marchés de permis d'émissions, réglementations/standards, mesures volontaires. Question abordée lors du dernier thème
+  * Une question .White.bg-Gold[d'optimisation politique]: planifier la consommation ou la production pour maximiser le bien-être ou minimiser les coûts, en supposant qu'un instrument de politique économique nous permet d'y parvenir
+- **Quel instrument?** 
+  - Choix entre taxe, marchés de permis d'émissions, réglementations/standards, mesures volontaires. **Nous aborderons cette question dans le dernier thème**, qui est plutôt de celle d'évaluation de l'efficacité d'un instrument
+  
+???
+Une question **d'optimisation politique** (définir l'objectif idéale de réduction des émissions), plutôt qu'une question d'évaluation de politique économique (définir l'instrument qui atteint cet objectif avec la meilleur efficacité).
 
 ---
 
@@ -795,12 +811,12 @@ background-size: cover
 ---
 ## Quantifier le niveau optimal de changement climatique
 
-* Les modèles d'évaluation intégrés (*Integrated Assessment Models*, IAMs), ou modèle économie-climat intégré
+* Les **modèles d'évaluation intégrés** (.White.bg-Gold[*Integrated Assessment Models*, IAMs]), ou **modèles économie-climat intégré**
 
-* La modélisation des coûts et des bénéfices des actions de réduction des émissions nécessite **d'intégrer** des connaissances de différentes disciplines (physique du climat, biophysique)
+* La modélisation des coûts et des bénéfices des actions de réduction des émissions nécessite **d'intégrer** des connaissances de différentes disciplines: physique du climat, biophysique
 
-* Plongeons-nous ici dans la construction de ces modèles
-  * Le modèle DICE (*Dynamic Integrated model of Climate and the Economy*) de William Nordhaus &lt;a name=cite-nordhaus&gt;&lt;/a&gt;&lt;a name=cite-nordhausb&gt;&lt;/a&gt;([Nordhaus, 1993](#bib-nordhaus); [Nordhaus, 1992](#bib-nordhausb))
+* Plongeons-nous ici dans la **construction de ces modèles**:
+  * En particulier, **le modèle DICE** (*Dynamic Integrated model of Climate and the Economy*) de William Nordhaus &lt;a name=cite-nordhausb&gt;&lt;/a&gt;&lt;a name=cite-nordhausa&gt;&lt;/a&gt;([Nordhaus, 1992](#bib-nordhausb); [Nordhaus, 2017](#bib-nordhausa))
   * Sous-section II.B. insistera sur la manière de refléter les incertitudes et les inégalités
   * Section III. insiste sur l'idée que ces modèles intègrent implicitement des jugements de valeur dont il faut tenir compte pour envisager de s'en servir pour informer le décideur politique
 
@@ -825,16 +841,16 @@ background-size: cover
 * &lt;a name=cite-nordhausc&gt;&lt;/a&gt;[Nordhaus and Tobin (1972)](#bib-nordhausc): "Is Growth Obsolete?"
   * Une **grande élasticité de substitution entre facteurs de production et ressources non renouvelables** (plus grande qu'entre capital et travail)
   * Une .White.bg-Gold[vision faible] de la durabilité où le capital reproductible est un substitut quasi-parfait de la terre et des ressources non renouvelables (en tout cas dans une perspective d'aggrégation macroéconomique) 
-  * Croissance ne sera donc *vraisemblablement* pas affectée par la rareté des ressources
+  * **Croissance ne sera donc *vraisemblablement* pas affectée par la rareté des ressources**
   
 --
 
-* Nordhaus avertit que les externalités énergétiques mondiales, « l'effet de serre », semblent être un « problème beaucoup plus grave » (*'a much more serious problem*')
+* Nordhaus avertit que, ce qu'il appelle alors les externalités énergétiques mondiales, « l'effet de serre », semblent être un « problème beaucoup plus grave » (.White.bg-Gold['*a much more serious problem*'])
   
 * Visite de l'Institut international pluridisciplinaire d'analyse des systèmes appliqués (IIASA), Autriche où il va développer une compréhension du cycle du carbone
-  * En particulier les flux du carbone entre stock comme une **contrainte linéaire**
+  * Modélisation des flux du carbone entre stocks comme une **contrainte linéaire**
   * Une analyse précurseur en 1975: "Can we control carbon dioxide?" &lt;a name=cite-nordhausd&gt;&lt;/a&gt;([Nordhaus, 2019](#bib-nordhausd))
-  * Quel effort de réduction pour maintenir un réchauffement donné
+  * Quel effort de réduction pour maintenir un réchauffement donné?
 
 ---
 ## Nordhaus (1975)
@@ -842,6 +858,18 @@ background-size: cover
 &lt;img src="img/nordhaus_1975.png" height="500" /&gt;
 ]
 
+???
+Programme qui calcule l'effort de réduction d'émissions, ici représenté pour 4 scénarios:
+* 1: Uncontrolled emissions, scénario sans limite de croissance des émissions
+* 2: Scénario où la concentration triple par rapport au niveau original
+* 3: Scénario où la concentration double (scénario raisonnable selon Nordhaus en 1975, car il amènerait à une hausse de la température comprise entre 0.6 et 2.4°C,, qui est une hausse dans la fourchette des variations climatiques observées à l'échelle de l'humanité)
+* Nordhaus n'est pas satifsfait de cette façon de modéliser, car ces choix de standards de scénario sont arbitraires, et ne permettent pas de choisir un réchauffement 'optimal".
+* Modèle va alors calculer l'effort de réduction efficace permettant d'atteindre l'objectif/standard de concentration. Bloc énergétique derrière avec une modélisation de la production d'énergie, et 4 demandes (industries, transport, logement, et électricité)
+* 4: Scénario où la concentration augmente de 50%
+
+* Que remarque-ton? En particulier, qu'entre scénario, il faut attendre 2030 pour que la contrainte de réduction soit pesante:
+Put differently, according to the cost schedules assumed in the model, it does not pay to curtail carbon dioxide emissions until the time, or almost the time, when the limit is reached; and for the three cases examined this time comes in the period centered on 2020. This point is important, for it implies that there is still a comfortable amount of time to continue research and to consider plans for implementation of carbon dioxide control if it is deemed necessary. On voit ensuite où l'effort d'abattement prendrait place.
+L'effort d'abattement n'a pas lieu dans le secteur industriel: pas de substitution aisée avec le charbon.
 ---
 ## Nordhaus (1975)
 .center[
@@ -849,33 +877,99 @@ background-size: cover
 ]
 
 ???
-In an optimization framework, as in an economy, constraints have their costs in terms of the objectives of the optimization. Recall that the control program takes the form of imposing upper bounds on the level of atmospheric concentrations; these are formally imposed as six inequality constraints on the problem (one inequality for each time period). Associated with each of these constraints (as well as all the other constraints) is a dual variable--sometimes called a shadow price--which in the optimal solution calculates the amount, on the margin, that the constraint costs in terms of the objective function. Put differently, the shadow price indicates how much the objective function would increase if the constraint were relaxed one unit. The most important shadow prices in the carbon dioxide optimization are the shadow prices On the carbon dioxide emissions constraint ~ The constraints are in terms-oT ____~g!_r:netr.:.i.~ ~ons of carbon in the troposphere, while the .objectiv:.e function is real income of consumers in 109 dollars of 1970 prices, This implies that the shadow price has the dimensions of dollars per ton of carbon dioxide emitted into the troposphere.
+In an optimization framework, as in an economy, constraints have their costs in terms of the objectives of the optimization. Recall that the control program takes the form of imposing upper bounds on the level of atmospheric concentrations; these are formally imposed as six inequality constraints on the problem (one inequality for each time period). Associated with each of these constraints (as well as all the other constraints) is a dual variable--sometimes called a shadow price--which in the optimal solution calculates the amount, on the margin, that the constraint costs in terms of the objective function. Put differently, the shadow price indicates how much the objective function would increase if the constraint were relaxed one unit. The most important shadow prices in the carbon dioxide optimization are the shadow prices On the carbon dioxide emissions constraint ~ The constraints are in terms of tons of carbon in the troposphere, while the objective function is real income of consumers in 109 dollars of 1970 prices, This implies that the shadow price has the dimensions of dollars per ton of carbon dioxide emitted into the troposphere.
 
 ---
 ## Nordhaus: de 1977 à 1992
 
-* Premiers calculs d'une **taxe carbone** (prix implicite associé à la contrainte de réduction des émissions)
+* Premiers calculs d'une **taxe carbone**
+  * **prix implicite** associé à la contrainte de réduction des émissions ('*shadow price*')
 
 * Mais jusqu'ici les objectifs climatiques sont imposés de **manière arbitraire**.
   * Quel serait l'objectif de réduction optimal? Souvent résumé en **quel serait le réchauffement optimal?**
 
 * Pour répondre à cette question: besoin d'ajouter une **fonction de dommage**, qui va venir "fermer" le modèle et permettre une analyse coût-bénéfice cohérente sur le plan interne
 
-* Première version du *Dynamic Integrated model of Climate and the Economy* publié dans Science en 1992
+* Première version du *Dynamic Integrated model of Climate and the Economy* publié dans **Science** en 1992
 ---
 ## La structure des IAMs
 
 .center[
 ** Un modèle de planificateur social**
 
-&lt;img src="img/IAM.png" height="500" /&gt;
+&lt;img src="img/IAM.png" height="475" /&gt;
 ]
 
 Source: &lt;a name=cite-dietz&gt;&lt;/a&gt;[Dietz (2024)](#bib-dietz)
 
 ---
+## Une présentation succinte du modèle DICE
+
+* Dans les supports qui suivent, nous présentons une version de DICE qui se rapproche de celle de DICE-2007, et de la plupart des IAMs développés dans années 2000 et début 2010
+  * Un **régulateur mondial** ayant pour objectif de maximiser le bien-être
+  * Un bien final composite
+  * Un stock de capital physique
+  
+* Il s'agit d'un modèle de croissance à la Ramsey-Cass-Koopmans avec l'ajout d'un module climatique
+  * Ajout de la possibilité d'utiliser une partie de la production pour **réduire les émissions de GES**: .White.bg-Gold[l'abattement]
+  * Le stock de GES engendre des **pertes de production**: .White.bg-Gold[les dommages]
+  * Arbitrage entre **satisfaction immédiate de la consommation présente** contre **l'utilité future de l'acroissement de la consommation future via l'investissement ET** .White.bg-Gold[l'abattement des émissions de GES] (une forme alternative d'investissement)
+  
+---
+## Consommation
+
+La planificateur vise à **maximiser le bien-être social**, fonction `\(W\)`, qui est la somme des utilités individuelles à chaque date pondérées par la population:
+$$
+`\begin{align}
+	W=\sum_{t=0}^{T}u_{t}N_{t}(1+\rho)^{-t}
+\end{align}`
+$$
+* `\(u\)`: **utilité individuelle** (voir slide suivante pour sa spécification)
+* `\(N\)`: **population** (exogène)
+* `\(\rho\)`: **le taux d'escompte du présent OU taux d'actualisation**
+* Temps discret jusqu'à une période terminale `\(T\)`
+
+???
+* Inclure la population est non triviale: utilité croissante de la population. C'est une fonction de bien-être sociale dite d'utilité totale. Possible de maximiser une utilité moyenne. Cela a pour conséquence qu'une population qui croît revient à utiliser un taux d'actualisation plus bas 
+* Lorsque nous discuterons d'intégrer l'**hétérogénéité** (II.B.): bien-être différent entre régions
+* **Intégrer l'incertitude**: incorporer l'espérance d'utilité
+* Absence d'**interactions stratégiques** entre individus: situation de coopération totale
+
+---
+## Utilité du consommateur représentatif
+
+* L'utilité liée à la consommation a la formule suivante:
+
+$$
+`\begin{align}
+	u_t=u(c_t)=\dfrac{c_t^{{1-\eta}}}{1-\eta}
+\end{align}`
+$$
+* Avec `\(\eta\)` **l'élasticité de l'utilité marginale de la consommation**
+  * Comment l'utilité marginale varie lorsque la consommation augmente 
+
+---
+## Lien avec le modèle de Ramsey-Cass-Koopmans
+
+* En dehors de la fonction de dommage, il s'agit jusqu'ici d'un **modèle de croissance exogène**, à la .White.bg-Gold[Ramsey-Cass-Koopmans]
+* Modèle qui a pour objet de déterminer le sentier de croissance optimal et la caractérisation de l'état stationnaire, i.e. qui maximise le bien être global
+
+* **Règle de Ramsey** (ou règle d'or modifiée): maximisation de `\(W\)` avec `\(u_t\)` et fonction de production amène à la règle suivante concernant le niveau d'intensité capitalistique qui caractérise l'état stationnaire:
+$$g_C = \dfrac{1}{\eta}(r_t - \rho) $$
+
+  * `\(g_C\)`: **le taux de croissance de la consommation par tête**
+  * `\(r_t\)`: **Taux de rendement du capital**
+  * `\(\rho\)`: **Taux d'actualisation** (mesure de l'impatience)
+  * `\(\eta\)`: **Elasticité de l'utilité marginale de la consommation** qui est aussi le taux de lissage de la consommation
+  
+???
+En équilibre général (en intégrant la production et l'investissement), on a:
+`$$g_c = \eta(f'(K) - \delta - \rho− g/\eta)$$`
+La règle d'or modifiée est la règle selon laquelle, pour qu'une économie à agent représentatif soit en état d'équilibre, l'intensité capitalistique doit être telle que le produit marginal net du capital soit égal au taux de rendement requis, compte tenu de la pureté de la préférence temporelle, ρ, et du désir de lissage de la consommation, mesuré par θ.
+
+---
 ## Production et dommages
-PIB global `\(Y_t\)` produit en utilisant le capital `\(K_t\)`, le travail `\(L_t\)` (population), et la technologie `\(At\)` :
+Production globale `\(Y_t\)` (assimilable au PIB) produit en utilisant le capital `\(K_t\)`, le travail `\(L_t\)` (population), et la technologie `\(A_t\)` :
 
 $$
 `\begin{align}
@@ -887,31 +981,270 @@ $$
 * **Impacts climatiques résumés par la fonction de dommages:** `\(D(T_t)\)`
   * `\(T_t\)`: changement moyen de la température atmosphérique globale en surface
 
-* Dommages exprimés en **% de perte équivalente de PIB**
-  * Impacts réels sur le PIB + valeur des impacts non-marchands
-
-* Dommages globaux agrégés `\(D(T_t)\)`: **Somme des estimations d'impacts à travers les régions et les secteurs**
+* Dommages globaux agrégés `\(D(T_t)\)`: 
+  * **Somme des estimations d'impacts à travers les régions et les secteurs**   *     * Impacts réels sur le PIB + valeur des impacts non-marchands
+  * Exprimés en **% de perte équivalente de PIB**
   * Plus de détails plus tard sur sa calibration
 
----
-## Utilité et consommation
+???
+* `\(A_t\)`: la technologie, croît de manière exogène
 
-La planificateur vise à **maximiser le bien-être social**, fonction `\(W\)`, qui est la somme des utilités individuelles à chaque date pondérés par la population:
+---
+## Investissement et accumulation du capital
+
+A chaque période, la production totale disponible (nette des dommages) est soit 
+  * **Consommée**: `\(c_t\)`
+  * **Investie pour réduire les émissions de GES**: fraction des émissions réduites `\(\mu_t\)`
+  * **Investie pour accroître le capital productif**: `\(I_t\)`
+
+* Equation d'accumulation du capital
+
+$$K_{t+1} = (1-\delta)K_t + I_t $$
+avec `\(\delta\)` le taux de dépréciation du capital
+
+
+---
+## Connecter l'économie au climat
+
+* La production génère des **émissions**: **intensité des émissions** `\(\sigma_t\)`
+  * `\(\sigma_t\)`, exogène: .White.bg-Gold[l'empreinte carbone du PIB]
+* Le décideur peut choisir d'allouer une partie du bien final à la réduction des émissions de GES: 
+  * `\(\mu_t\)`: fraction des émissions réduites, **variable de décision**
+* Ainsi, le **flux d'émissions** à la date `\(t\)` est:
+
 $$
 `\begin{align}
-	W=\sum_{t=0}^{T}u_{t}N_{t}(1+\rho)^{-t}
+E_t = \left(1 - \mu_t\right) × \sigma_t × Y_t
 \end{align}`
 $$
-* `\(u\)`: utilité individuelle
-* `\(N\)`: population
-* `\(\rho\)`: le taux d'escompte du présent OU la préférence pure pour le présent
-* Temps discret jusqu'à une période terminale `\(T\)`
 
---
+* **Contrainte de rareté des ressources fossiles:**
+$$\sum_t E_t \leq CCum  $$
+avec `\(CCum\)` lié au stocke de ressources fossiles
 
-* Lorsque nous discuterons d'intégrer l'**hétérogénéité** (II.B.): bien-être différent entre régions
-* **Intégrer l'incertitude**: incorporer l'espérance d'utilité
-* Absence d'**interactions stratégiques** entre individus: situation de coopération totale
+---
+## Abattre, à quel coût?
+
+* Spécifier une fonction de **coût d'abattement**
+
+$$
+`\begin{align}
+  \Lambda_t= \phi_{1,t} (\mu_t)^{\phi_2} Y_t
+\end{align}`
+$$
+avec:
+* `\(\phi_{1,t}\)`: un **facteur d'efficacité** en coûts (exogène)
+* `\(\phi_2\)`: supposé plus grand que 2 pour représenter l'idée que les **coûts d'abattement sont convexes** (coûts marginaux d'abattement croissant)
+* Coût exprimé en quantité de bien final `\(Y_t\)`
+
+---
+## Note: le progrès technique dans DICE
+
+* **Trois sources de progrès techniques**, .White.bg-Gold[toutes exogènes]:
+  * `\(A_t\)`: positif et décroissant au cours du temps, pour représenter des **gains d'efficacité dans la production de moins en moins grand** 
+  * `\(\sigma_t\)`: décroit de manière exogène au cours du temps. Représente l'idée que la quantité d'émissions émise par unité produite décroit. **Gains d'efficacité dans l'émission de GES en produisant.** Capture l'idée d'une décarbonation autonome.
+  * `\(\phi_{1,t}\)`: décroit au cours du temps: une plus faible quantité d'output est requise pour réduire les émissions. Autrement dit, le coût pour réduire les émissions décroît au cours du temps. **Gains d'efficacité dans la technologie d'abattement.**
+    * L'hypothèse de la **backstop technology**: une technologie qui permet de produire sans émettre de GES
+
+???
+Décarbonation autonome: l'idée que la structure de l'économie peut changer au cours du temps: de moins en moins d'industrie et de plus en plus de service, moins émetteurs en GES
+
+---
+## Calibrage des coûts d'abattement
+
+.center[
+&lt;img src="img/backstop.png" height="500" /&gt;
+]
+
+---
+## Le module du climat: le cycle du carbone
+
+* Les émissions de GES se concentrent dans l'atmosphère puis **changent progressivement de réservoir**: .White.bg-Gold[stockage dans la biosphère et dans les océans]
+* Représentation **du cycle du carbone**: avec une série de réservoirs/puits et leurs échanges de GES entre eux de **manière linéaire**
+$$
+`\begin{align}
+  m_{i,t} = A_i m_{i,t-1} + bE_{i,t}
+\end{align}`
+$$
+avec `\(m_{i}\)` le vecteur des réservoirs du GES `\(i\)`, `\(A_i\)` la matrice de transition entre les réservoirs, `\(b\)` le vecteur des parts d'émissions allant dans chaque puis et `\(E_i\)` les émissions
+* Par exemple pour DICE et pour le GES `\(i=CO2\)`:
+
+.center[
+&lt;img src="img/dice_carboncycle.png" height="125" /&gt;
+]
+
+???
+Si la matrice de transition et la part d'émissions allant dans chaque stock (A et b) sont constants, alors le cycle du carbone est linéaire, il ne dépend pas des variables d'état (c-à-d des quantités de concentration dans les stocks). Mais, en pratique, certains cycles de GES sont dépendants de l'état, par exemple, la facilité avec laquelle la biosphère et les océans stockent le CO2 décroit avec le changement climatique (feedback dans le modèle). Possible d'introduire une plus grande complexité qui va également affecté les résultats du modèle
+
+---
+## Le module du climat: La température
+
+* Convertir la concentration en 
+  * **Changement de température**: le réchauffement global
+  * Via le **Forçage radiatif**: le pouvoir réchauffant des GES
+
+* Le **forçage radiatif** est une mesure du pouvoir réchauffant à partir de la concentration en GES de l'atmosphère. 
+  * Une fonction croissante et concave du ratio de concentration en GES dans l'atmosphère `\(M_{AT}\)` par rapport au niveau pré-industriel `\(\bar{M}_{AT}\)`, du type `\(F_i = \ln(M_{AT}/\bar{M}_{AT})\)`
+
+* La **température**: une fonction du forçage radiatif et des échanges thermiques entre l'air et l'océan
+  * Issu des **modèles d'équilibre énergétique**: explique les changements de la température moyenne mondiale par des déséquilibres dans le bilan énergétique de la Terre (dont le forçage radiatif)
+  * Fonction du type: `\(T_t = g(T_{t-1}, F_t)\)` avec `\(T\)` la température et `\(F\)` le forçage qui capture les **délais dans le rechauffement** 
+  
+???
+* Délais de réchauffement: temps que le forçage génère un réchauffement
+
+* Possible de simplifier toute cette représentation détaillée avec une fonction du type:
+`\(T_t=\xi \sum_{s=0}^t E_s\)` 
+Ou la température dépend de toutes les émissions passées et de `\(\xi\)` qui est la Réponse transitoire du climat aux émissions cumulées de carbone. Ce paramètre peut être constant au cours du temps.
+Mais cette simplification ignore le délai court entre l'émission et le maximum de son pouvoir réchauffant (délai de 10 ans).
+Elle ignore aussi l'aspect non linéaire dans la durée du pouvoir réchauffant: approximation correcte pour le CO2 dont le pouvoir réchauffant est très long et se dégrade lentement et linéairement, mais pas pour le méthane par exemple.
+
+---
+## La fonction de dommages
+* L'un des aspects **les plus importants des IAMs**:
+  * Donne une **valeur aux actions de réduction**
+* L'un des blocs **le plus spéculatif**:
+  * **Preuves empiriques sont relativement minces** (Section I.B.)
+* En règle générale, les IAMs supposent une **fonction polynomiale de la température**
+  * Pour DICE: un polynome d'ordre deux:
+$$
+`\begin{align}
+1 - D(T_t) = \dfrac{1}{1 + \alpha_1 T_t + \alpha_2 (T)^{\alpha_3}}
+\end{align}`
+$$
+* Des **calibrations alternatives**:
+  * Des **fonctions de dommage par secteur** (FUND). Problème: le dommage total est-il la somme des dommages sectoriels ou en réalité est-ce moins (comptage double) ou plus (effets cascade). .White.bg-Gold[Interactions des dommages]
+*  **Dommages sur le taux de croissance** et non le niveau de la production
+* Dommages comme des **chocs stochastiques**: les modèles DSGE-climat
+
+---
+## Calibration de la fonction de dommages
+
+.center[
+&lt;img src="img/damage.png" height="450" /&gt;
+
+A partir de  &lt;a name=cite-nordhause&gt;&lt;/a&gt;[Nordhaus and Boyer (2000)](#bib-nordhause)
+]
+
+???
+Un livre qui recense dans différentes régions du monde, le pourcentage de perte en PIB pour un réchauffement de 2,5°C. 
+
+---
+## Calibration des dommages: DICE-2017
+
+* Une méthode d'aggrégation statistique à partir de la littérature
+  * `\(\alpha_1\)`= 0 
+  * `\(\alpha_2\)`= 0.00236
+  * `\(\alpha_3\)`= 2
+* Ainsi: `\(D(3°C)\equiv 2,1\)`% de pertes
+
+* Un montant de dommages **relativement faible**
+  * Ordre de grandeur équivalent aux effets de la récession en 2009
+
+---
+## Résumé de DICE
+
+* Le planificateur **maximise la fonction de bien-être social** (`\(W\)`) en choisissant **l'investissement (`\(I_t\)`), et le taux de contrôle des émissions (`\(\mu_t\)`).**
+
+* Initialisation des variables d'état: population (`\(N_0\)`), productivité (`\(A_0\)`), capital (`\(K_0\)`), émissions initiales et concentrations.
+
+* Résolution par des algorithmes de programmation non-linéaire
+  * [DICE-2016 simplifié sur Excel](https://yale.app.box.com/s/whlqcr7gtzdm4nxnrfhvap2hlzebuvvm), fournit par Nordhaus et Barrage
+
+* Quels résultats de la résolution du modèle sont étudiés?
+  * **L'effort de réduction des émissions et la température à l'optimum**
+  * **La variation de la fonction de bien-être sociale à l'optimum à une date données (fonction objectif à l'optimum) induite par une unité supplémentaire de GES émise** donne une .White.bg-Gold[évaluation du coût social du carbone]
+  * Sert à définir une valeur de référence pour une taxe carbone optimale
+
+---
+## D'autres IAMs avec des ajustements 
+
+* **FUND**: un modèle qui représente explicitement les canaux de dommage du changement climatique, avec des **détails sectoriels**
+  * **Plusieurs fonctions de dommage**: sur la productivité agricole, la santé, les infrastructures
+* **RICE**: un modèle **DICE régionalisé**, avec des **fonctions de dommage et des coûts d'abattement hétérogènes entre régions**
+* **PAGE**: le modèle utilisé dans le rapport Stern (2007), avec une autre fonction de dommages et d'autres paramètrages
+
+* Depuis les années 2000, les travaux de recherche ont cherché à **considérablement améliorer les IAMs**:
+  * Incertitudes, progrès technique endogène, politiques de R&amp;D, les catastrophes et les effets de seuil (tipping points), la non-coopération entre régions, la formation de coalition, intégrer l'adaptation, des préférences plus complexes...
+  * En particulier, Section II.B. suivante: le cas de l'incertitude et des inégalités intragénérationnelles
+
+---
+## Une histoire des résultats des IAMs et de DICE
+
+* Une première génération de modèles qui s'accordent sur un besoin de **faiblement contrôler** les émissions
+* **Résultat de DICE-1992**: une .White.bg-Gold[modeste réduction des émissions de CO2 est nécessaire]
+  * **L'effort de réduction optimal: 10% en 2000 à 15% en 2100** 
+  * **Réduction de la température de 0.2°C par rapport à un scénario sans contrôle des émissions (réchauffement de plus de 3°C)** 
+  * **Taxe carbone optimale de 3$/tCO2e à 11$tCO2e**
+  * Comparaison avec un chemin limitant le réchauffement à 1.5°C où les réductions d'émissions sont beaucoup plus drastiques
+  * Nordhaus parle de rampe de lancement de la politique climatique (*'climate-policy ramp'*).
+
+---
+## DICE-1992
+
+.pull-left[
+.center[
+&lt;img src="img/DICE_1992a.png" height="400" /&gt;
+]
+]
+.pull-right[
+.center[
+&lt;img src="img/DICE_1992b.png" height="400" /&gt;
+]
+]
+]
+
+A partir de [Dietz (2024)](#bib-dietz)
+
+???
+Le contrôle optimal des émissions démarre à environ 10% en 1995 et s'accroit jusqu'à atteindre 15% en 2100 (courbe verte). Cela engendre une réduction modeste de la température (comparaison sur la figure de droite avec la courbe bleue claire, sans contrôle).
+Comparaison avec les courbes bleues foncés qui modélise un scénario de stabilisation de la température à 1,5°C
+
+---
+## Des résultats discutés
+  
+* Contraste avec les résultats du rapport &lt;a name=cite-stern&gt;&lt;/a&gt;[Stern (2007)](#bib-stern)
+  * IAM Page: sans définir un réchauffement optimal, mais en estimant les coûts sociaux du carbone associés à des trajectoires exogènes d'émissions
+  * **Coût social du carbone de 140$/tCO2 dans le scénario de référence (BAU)**
+  * **Stabilisation nécessaire de la concentration à 450-550 ppm de CO2e**
+  * Identifie un .White.bg-Gold[effort drastique et rapide de réduction]
+
+
+* Contraste important qui nourrit alors des débats scientifiques intenses:
+
+“we have probably seen more economics articles on climate change in the
+last year and a half than in all preceding history" G. Heal (2009)
+
+* Sensibilité des résultats des IAMs au choix du **niveau du taux d'actualisation**
+
+---
+## Nordhaus vs. Stern: le débat sur le taux actualisation
+
+* Le **choix du niveau du taux d'actualisation détermine les résultats**
+  * la réduction des émissions implique des **coûts à court terme** et procure un **flux de bénéfices à long terme**. L
+  * .White.bg-Gold[La majorité des avantages est alors éloigné dans le temps] et leur valeur dépend du taux d'actualisation
+* Stern (2007): une **posture éthique et normative** en choisissant `\(\rho=0.1\)`%
+* Nordhaus: **une approche descriptive** en fixant `\(\rho=1.5\)`% à partir des taux d'intérêt sans risque observé
+* Conséquences sur l'estimation du coût social du carbone:
+  * **Taux d'actualisation élevé: de 9$\tCO2 à 40$\tCO2** 
+  * **Taux d'actualisation bas: de 122$tCO2 à 525$tCO2** 
+* Des **dommages sous-évalués**:
+  * Il faudrait une calibration de la fonction de dommages amenant des pertes de PIB de 6,7% sous 3°C pour que DICE prescrivent un réchauffement optimal de 1.5°C  
+---
+## Une méta-analyse du coût social du carbone
+
+.center[
+&lt;img src="img/meta-analysis.png" height="470" /&gt;
+
+Source: &lt;a name=cite-tola&gt;&lt;/a&gt;[Tol (2023)](#bib-tola)
+]
+
+??? 
+Depuis 2009, on observe une tendance croissante à la hausse du cout social du carbone.
+S'explique par l'utilisation plus fréquente d'un taux d'actualisation plus faible
+S'explique par des raffinements de fonctions de dommage
+Meilleure prise en compte des risques et des incertitudes
+Régionalisation et hétérogénéité
 
 ---
 ## Une modélisation de la dynamique du climat qui manque de réalisme
@@ -922,12 +1255,50 @@ Ploeg, Rezai, and Venmans (2021)](#bib-dietza) montrent que le modèle **DICE fa
 * **Un délai trop lent entre l'émission de GES et le réchauffement:** Les modèles climatiques scientifiques montrent un réchauffement rapide pour atteindre un niveau constant, alors que les modules climatiques des modèles économiques se réchauffent beaucoup plus lentement et atteignent une stabilité après deux siècles
 * **Une mauvaise représentation des rétroactions du cycle du carbone:** les modèles climatiques montrent un affaiblissement de la capacité de stockage de carbone à partir de la quantité déjà accumulée, alors que les modèles économiques montrent un renforcement de cette absorption
 * .White.bg-Gold[Conséquences sur DICE:]
-  * Ces deux problèmes amènent le modèle DICE propose un coût social optimal du carbone trop faible
-  * Une sensibilité trop grande du coût social du carbone au taux d'actualisation
-  * Problèmes qui peuvent être facilement résolues
+  * **Coût social optimal du carbone trop faible**
+  * **Sensibilité trop grande du coût social du carbone au taux d'actualisation**
+  * Problèmes qui peuvent être facilement résolues en modifiant le module climatique pour le rendre réaliste
   
 ???
-* la rapidité et l'ampleur de l'augmentation de la température en réponse à une impulsion d'émission de CO2. Nous montrons que les modèles climatiques scientifiques se réchauffent uniformément très rapidement pour atteindre un niveau constant, alors que les modules climatiques des modèles économiques se réchauffent beaucoup plus lentement et n'atteignent pas une température stable en l'espace de deux siècles.
+La rapidité et l'ampleur de l'augmentation de la température en réponse à une impulsion d'émission de CO2. L'article de Dietz et co-auteurs montre que les modèles climatiques scientifiques se réchauffent uniformément très rapidement pour atteindre un niveau constant, alors que les modules climatiques des modèles économiques se réchauffent beaucoup plus lentement et n'atteignent pas une température stable en l'espace de deux siècles.
+
+---
+## Une formulation du coût social du carbone optimal
+
+* Les IAMs comme DICE n'ont pas de forme fermée pour le coût social du carbone
+  * **Le coût social du carbone est une fonction implicite des paramètres du modèle**
+* &lt;a name=cite-golosov&gt;&lt;/a&gt;[Golosov, Hassler, Krusell, and Tsyvinski (2014)](#bib-golosov) propose un modèle IAM analytique qui permet d'obtenir une formulation du coût social du carbone à l'optimum. Hypothèses simplificatrices:
+  * Fonction de bien-être sociale sans population (utilité moyenne)
+  * Fonction d'utilité logarithmique avec `\(\eta=1\)`
+  * Fonctions de dommage multiplicative de la production, où la température répond sans délai à l'acroissement de la concentration en CO2, alors la fonction de dommage se simplifie: `\(1-D(t)=\exp[-\xi (M_{AT,t} - \bar{M}_{AT})]\)`
+  * Dépréciation totale du capital à chaque période (une période = 10 ans)
+  * Alors le coût social du carbone optimal `\(\tau\)` est:
+$$
+`\begin{align}
+\tau = Y_t \xi \dfrac{1+\rho}{\rho + \delta_{CO2}
+\end{align}`
+$$
+avec `\(\delta_{CO2}\)` le taux de décroissance du CO2 atmosphérique
+
+???
+Coût social du carbone est une proportion constante de l'output. Il croit donc au même rythme que la croissance de l'économie. Il dépend de trois paramètres: le taux d'actualisation, le coefficient de la fonction de dommage et le taux de décroissance du CO2 atmosphérique.
+
+---
+## Que retenir de DICE et des IAMs
+
+* Un **modèle simple** d'analyse coût-bénéfices des trajectoires de réduction d'émissions de GES
+  * Sa simplicité explique son succès: seulement quelques équations
+  * **Un modèle de planificateur social**
+* * Leurs intérêts: 
+  * **Désigner des trajectoires optimales de réduction d'émissions et donc définir les objectifs de la politique climatique**
+  * Offrir une **quantification du coûts social du carbone**: la valeur optimale d'une taxe carbone
+* **Ne pas accorder trop d'importance aux valeurs numériques précises du modèle**, mais plutôt aux .White.bg-Gold[mécanismes et au rôle clef de certains paramètres pour comprendre en quoi certaines hypothèses sont cruciales pour la mise en oeuvre de politique de réduction des émissions de GES] (Section III.)
+  * Un **effort de réduction d'émissions trop faibles**: importance du taux d'actualisation, du traitement des risques catastrophiques, une spécification optimiste de la technologie d'abatement, une mauvaise représentation du cycle du carbone, une sous-estimation des dommages
+    * L'approche numérique donne une impression trompeuse de précision et de connaissances: **le principe de précaution devrait-il guider l'action?**
+
+???
+
+Section II.B: comment le modèle réagit à une complexification concernant le risque et les inégalités
 
 ---
 class: left, middle, inverse
@@ -939,21 +1310,65 @@ background-size: cover
 .footnote[Photo by Kristi McCluer, Reuters]
 
 ---
+&lt;!-- ## Weitzman (2009) et le 'dismal theorem' --&gt;
 
+&lt;!-- * **Longue queue à droite** de la distribution de probabilité('*fat-right-tail distribution') de la sensibilité climatique à l'équilibre, c-à-d l'augmentation de la température à l'équilibre après un doublement de la concentration atmosphérique de CO2 par rapport à l'ère préindustrielle --&gt;
+&lt;!--   * Scientifiques du climat n'excluent pas des réchauffemnet possible à l'équilibre de l'ordre de 10 °C* ou plus et a émis l'hypothèse qu'u* --&gt;
+&lt;!--   * Un réchauffement aussi important, avec une très faible probabilité, aurait des conséquences catastrophiques: consommation tend vers zéro.  --&gt;
+&lt;!-- * &lt;a name=cite-weitzman&gt;&lt;/a&gt;[Weitzman (2009)](#bib-weitzman): Preuve théorique qu'en présence d'une queue de distribution large sur la probabilité de réchauffement et des dommages approchant 100 % de la consommation, on peut techniquement en déduire que le coût social du carbone n'est pas borné, i.e. le *Dismal theorem* --&gt;
+&lt;!--   * Même en présence d'un taux d'actualisation élevé --&gt;
+&lt;!-- * **Faillite des analyses coûts-bénéfices face à un risque catastrophique** --&gt;
+
+&lt;!-- ??? --&gt;
+&lt;!-- Weitzman va dans le sens des conclusions du rapport Stern, mais pour des raisons différentes. Pas fondamentalement une question philosophique/éthique sur le taux d'escompte, mais plutôt une question liée à l'éventualité d'une catastrophe et aux précautions à prendre. --&gt;
+&lt;!-- Ce n'est pas une question de pondération du bien-être entre génération, mais plutôt une question du risque de disparition d'une fraction de  l'humanité --&gt;
+
+&lt;!-- --- --&gt;
+&lt;!-- ## Les IAMs récursifs --&gt;
+
+&lt;!-- * Régulateur ajuste sa politique optimale en fonction de son apprentissage du changement climatique: approche récursive --&gt;
+
+&lt;!-- --- --&gt;
+
+
+---
 class: left, bottom, inverse
 background-image: url("img/tuvalu.avif")
 background-size: cover
 ##III. Les apports de l'analyse économique aux politiques de lutte contre le changement climatique
 
----
-## Se rappeler que l'économie ne permet pas seule de lever les verrous
+&lt;!-- --- --&gt;
+&lt;!-- ## Se rappeler que l'économie ne permet pas seule de lever les verrous --&gt;
 
-Importancce de l'activisme
 
-Des litigations contre l'inaction face au changement climatique: rôle du droit
+&lt;!-- ??? --&gt;
 
-Toutes les sciences sociales sont nécessaires
-https://en.wikipedia.org/wiki/Climate_change_litigation
+&lt;!-- Importance de l'activisme --&gt;
+&lt;!--   * De plus en plus de chercheurs s'engagent en parallèle de leur travaux de recherche --&gt;
+
+&lt;!-- Des litigations contre l'inaction face au changement climatique: rôle du droit --&gt;
+
+&lt;!-- Toutes les sciences sociales sont nécessaires --&gt;
+&lt;!-- https://en.wikipedia.org/wiki/Climate_change_litigation --&gt;
+
+&lt;!-- --- --&gt;
+
+&lt;!-- ## Nourir les décideurs politiques de chiffres --&gt;
+
+
+&lt;!-- ??? --&gt;
+&lt;!-- * Greenstone et al. (2013): le processus par lequel le gouvernement américain a choisi quatre valeurs pour le coût social du carbone --&gt;
+&lt;!--   * La valeur des émissions de dioxyde de carbone évitées --&gt;
+&lt;!--   * Utilisée par exemple, si le gouvernement doit procéder à une évaluation coût-bénéfice d'une proposition de réglementation en matière d'efficacité énergétique --&gt;
+
+
+&lt;!-- * Simplicité des modèles :  --&gt;
+&lt;!--   * Trois modèles mondiaux d'évaluation intégrée de l'économie et du climat, dont DICE.  --&gt;
+&lt;!--   * Tous ces modèles comprennent une représentation des dommages climatiques, mais aucun d'entre eux n'inclut une représentation des choix technologiques  --&gt;
+&lt;!--   * A l'inverse les modèles de choix technologiques ne comportent pas les dommages nécessaires à l'évaluation des émissions. --&gt;
+
+&lt;!-- * Un abus de ces modèles d'être employé pour guider la politique  --&gt;
+  &lt;!-- * Leur prédiction numérique ne viennent pas d'une modélisation complète --&gt;
 
 ---
 class: left, bottom, inverse
@@ -961,13 +1376,13 @@ background-image: url("img/stern.jpg")
 background-size: cover
 
 .pull-left[
-''Overall, I am very optimistic about what we can do. We really can see a path to a world with much stronger mitigation and adaptation and to a new much more attractive model of growth and development; sustainable, resilient, and inclusive.''
+####''Overall, I am very optimistic about what we can do. We really can see a path to a world with much stronger mitigation and adaptation and to a new much more attractive model of growth and development; sustainable, resilient, and inclusive.''
 ]
 
 --
 
 .pull-right[
-''However, I am deeply worried about what we will do. The scale and pace of structural, technological and social change must be large and rapid. That will require changes in behaviour and institutions. It will require purposive and sustained political leadership, and strong political pressure from society as a whole on decision-makers to deliver change.''
+####''However, I am deeply worried about what we will do. The scale and pace of structural, technological and social change must be large and rapid. That will require changes in behaviour and institutions. It will require purposive and sustained political leadership, and strong political pressure from society as a whole on decision-makers to deliver change.''
 ]
 
 .center[Nicholas Stern (2023)]
@@ -1038,15 +1453,21 @@ Comment". In: _American Economic Review_ 102.7, pp. 3749-3760. ISSN:
 [10.1257/aer.102.7.3749](https://doi.org/10.1257%2Faer.102.7.3749).
 (Visited on janv.. 28, 2019).
 
+&lt;a name=bib-golosov&gt;&lt;/a&gt;[Golosov, M., J. Hassler, P. Krusell, et
+al.](#cite-golosov) (2014). "Optimal Taxes on Fossil Fuel in General
+Equilibrium". In: _Econometrica_ 82.1, pp. 41-88. ISSN: 1468-0262. DOI:
+[10.3982/ECTA10217](https://doi.org/10.3982%2FECTA10217). (Visited on
+févr.. 20, 2024).
+
+---
+# References III
+
 &lt;a name=bib-hsianga&gt;&lt;/a&gt;[Hsiang, S. M., M. Burke, and E.
 Miguel](#cite-hsianga) (2013). "Quantifying the Influence of Climate on
 Human Conflict". In: _Science_ 341.6151, p. 1235367. ISSN: 0036-8075,
 1095-9203. DOI:
 [10.1126/science.1235367](https://doi.org/10.1126%2Fscience.1235367).
 (Visited on févr.. 04, 2025).
-
----
-# References III
 
 &lt;a name=bib-mendelsohn&gt;&lt;/a&gt;[Mendelsohn, R. O., W. D. Nordhaus, and D.
 Shaw](#cite-mendelsohn) (1994). "The Impact of Global Warming on
@@ -1067,13 +1488,69 @@ _Science_ 258.5086, pp. 1315-1319. ISSN: 0036-8075, 1095-9203. DOI:
 [10.1126/science.258.5086.1315](https://doi.org/10.1126%2Fscience.258.5086.1315).
 (Visited on févr.. 05, 2025).
 
-&lt;a name=bib-nordhaus&gt;&lt;/a&gt;[Nordhaus, W. D.](#cite-nordhaus) (1993).
-"Optimal Greenhouse-Gas Reductions and Tax Policy in the "DICE" Model".
-In: _The American Economic Review_ 83.2, pp. 313-317. ISSN: 0002-8282.
+&lt;a name=bib-nordhausa&gt;&lt;/a&gt;[Nordhaus, W. D.](#cite-nordhausa) (2017).
+"Revisiting the Social Cost of Carbon". In: _Proceedings of the
+National Academy of Sciences_ 114.7, pp. 1518-1523. ISSN: 0027-8424,
+1091-6490. DOI:
+[10.1073/pnas.1609244114](https://doi.org/10.1073%2Fpnas.1609244114).
+(Visited on mai. 27, 2021).
+
+---
+# References IV
+
+&lt;a name=bib-nordhause&gt;&lt;/a&gt;[Nordhaus, W. D. and J.
+Boyer](#cite-nordhause) (2000). _Warming the World: Economic Models of
+Global Warming_. Cambridge, Mass.: MIT Press. ISBN: 978-0-262-64054-1
+978-0-262-14071-3.
 
 &lt;a name=bib-nordhausc&gt;&lt;/a&gt;[Nordhaus, W. and J. Tobin](#cite-nordhausc)
 (1972). _Is Growth Obsolete?_ NBER Chapters. National Bureau of
 Economic Research, Inc, pp. 1-80. (Visited on févr.. 05, 2025).
+
+&lt;a name=bib-ouzeau&gt;&lt;/a&gt;[Ouzeau, G., J. -. Soubeyroux, M. Schneider, et
+al.](#cite-ouzeau) (2016). "Heat Waves Analysis over France in Present
+and Future Climate: Application of a New Method on the EURO-CORDEX
+Ensemble". In: _Climate Services_ 4, pp. 1-12. ISSN: 2405-8807. DOI:
+[10.1016/j.cliser.2016.09.002](https://doi.org/10.1016%2Fj.cliser.2016.09.002).
+(Visited on févr.. 03, 2025).
+
+&lt;a name=bib-pindyck&gt;&lt;/a&gt;[Pindyck, R. S.](#cite-pindyck) (2019). "The
+Social Cost of Carbon Revisited". In: _Journal of Environmental
+Economics and Management_ 94, pp. 140-160. ISSN: 0095-0696. DOI:
+[10.1016/j.jeem.2019.02.003](https://doi.org/10.1016%2Fj.jeem.2019.02.003).
+(Visited on févr.. 04, 2025).
+
+&lt;a name=bib-schlenker&gt;&lt;/a&gt;[Schlenker, W., W. M. Hanemann, and A. C.
+Fisher](#cite-schlenker) (2005). "Will U.S. Agriculture Really Benefit
+from Global Warming? Accounting for Irrigation in the Hedonic
+Approach". In: _American Economic Review_ 95.1, pp. 395-406. ISSN:
+0002-8282. DOI:
+[10.1257/0002828053828455](https://doi.org/10.1257%2F0002828053828455).
+(Visited on janv.. 28, 2019).
+---
+# References V
+
+&lt;a name=bib-stern&gt;&lt;/a&gt;[Stern, N.](#cite-stern) (2007). _The Economics
+of Climate Change: The Stern Review_. Cambridge University Press. ISBN:
+978-1-139-93642-2.
+
+&lt;a name=bib-tol&gt;&lt;/a&gt;[Tol, R. S.](#cite-tol) (2024). "A Meta-Analysis of
+the Total Economic Impact of Climate Change". In: _Energy Policy_ 185,
+p. 113922. ISSN: 03014215. DOI:
+[10.1016/j.enpol.2023.113922](https://doi.org/10.1016%2Fj.enpol.2023.113922).
+(Visited on févr.. 04, 2025).
+
+&lt;a name=bib-tola&gt;&lt;/a&gt;[Tol, R. S. J.](#cite-tola) (2023). "Social Cost
+of Carbon Estimates Have Increased over Time". In: _Nature Climate
+Change_ 13.6, pp. 532-536. ISSN: 1758-6798. DOI:
+[10.1038/s41558-023-01680-x](https://doi.org/10.1038%2Fs41558-023-01680-x).
+(Visited on févr.. 11, 2025).
+
+&lt;a name=bib-weitzman&gt;&lt;/a&gt;[Weitzman, M. L.](#cite-weitzman) (2009). "On
+Modeling and Interpreting the Economics of Catastrophic Climate
+Change". In: _Review of Economics and Statistics_ 91.1, pp. 1-19. ISSN:
+0034-6535. DOI:
+[10.1162/rest.91.1.1](https://doi.org/10.1162%2Frest.91.1.1).
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
