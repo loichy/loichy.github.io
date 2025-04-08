@@ -15,15 +15,15 @@ Damages in Ireland: A CGE Analysis of Secondary Impacts.
 * **L.Henry**. Have economists really “let down the world”? A quantitative overview of the economic literature on climate change. [Link to the most recent version](https://www.dropbox.com/scl/fi/6vtpt4gbn9h4ai7w9waim/CC_Econ_SystRev_WP2.pdf?rlkey=7em0d97n0gtsj1px3gxhxkreu&st=3r9k2bgt&dl=0)
 
 ## Publications
-* **L. Henry**. Adapting the Designated Area of Geographical Indications to Climate Change. 2023. *American Journal of Agricultural Economics*. (This article previously circulated under the name "Adapting Geographical Indication to climate change".) [Publisher's link.](https://doi.org/10.1111/ajae.12358) [Link to supplementary appendix.](https://www.dropbox.com/s/elboli8ocpj4g2d/SupplementaryAppendix.pdf?dl=0)
-* S. De Cara, **L. Henry** and P.A. Jayet. 2018. Optimal coverage of an emission tax in the presence of monitoring, reporting, and verification costs. *Journal of Environmental Economics and Management*. [Publisher's link.](https://www.sciencedirect.com/science/article/pii/S0095069617302814) [Link to preprint.](https://hal.archives-ouvertes.fr/hal-01736839)
+* **L. Henry**. Adapting the Designated Area of Geographical Indications to Climate Change. *American Journal of Agricultural Economics*. 2023. [Publisher's link.](https://doi.org/10.1111/ajae.12358) [Link to supplementary appendix.](https://www.dropbox.com/s/elboli8ocpj4g2d/SupplementaryAppendix.pdf?dl=0)
+* S. De Cara, **L. Henry** and P.A. Jayet. Optimal coverage of an emission tax in the presence of monitoring, reporting, and verification costs. *Journal of Environmental Economics and Management*. 2018. [Publisher's link.](https://www.sciencedirect.com/science/article/pii/S0095069617302814) [Link to preprint.](https://hal.archives-ouvertes.fr/hal-01736839)
 
 ## Other publications
 
-* **L. Henry**. (In preparation). Approches économiques de l'évaluation d'impacts du changement climatique. Chapitre d'ouvrage aux éditions QUAE.
+* **L. Henry**. Approches économiques de l’évaluation d’impact du changement climatique sur l’agriculture. Chapter in *Agriculture et Changement Climatique. Impacts, Adaptation et Atténuation*. Edited by P. Debaeke, Philippe, N. Graveline, et al. Quae editions. 2025. [Link to book.](https://doi.org/10.35690/978-2-7592-4012-8)
 
-* K. Duffy, K. de Bruin, **L. Henry**, C. Kweku Kyei, A. Nolan, and B. Walsh. 2024. Health impacts of climate change
-and mitigation policies in Ireland. [Link to report.](http://dx.doi.org/10.26504/rs188)
+* K. Duffy, K. de Bruin, **L. Henry**, C. Kweku Kyei, A. Nolan, and B. Walsh. Health impacts of climate change
+and mitigation policies in Ireland. 2024. [Link to report.](http://dx.doi.org/10.26504/rs188)
 
 * **L. Henry**. 2021. Essais sur l’économie du changement climatique: Atténuation et adaptation du secteur agricole (Résumé du manuscrit de thèse). INRAE Sciences Sociales, no. 4–5. [Link to article.](https://doi.org/10.22004/AG.ECON.324770).
 
