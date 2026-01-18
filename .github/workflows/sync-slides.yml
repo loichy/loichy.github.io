@@ -2,8 +2,8 @@ name: Sync Slides from Private Repo
 
 on:
   schedule:
-    - cron: '0 * * * *'  
-  workflow_dispatch:
+    - cron: '0 */6 * * *'  # Toutes les 6 heures au lieu de chaque heure
+  workflow_dispatch:  # Permet le déclenchement manuel
 
 jobs:
   sync_slides:
@@ -26,28 +26,37 @@ jobs:
 
       - name: Copy Slides to Public Repo
         run: |
-          mkdir -p slides
           cp slides-temp/Theme1_Slides.html slides/ 
-          cp slides-temp/Theme2_Slides.html slides/ 
-          cp slides-temp/Theme3_Slides.html slides/ 
-          cp slides-temp/Conclusion_Slides.html slides/
-          cp -r slides-temp/css slides/      
-          cp -r slides-temp/img slides/
-          cp -r slides-temp/libs slides/
+          cp slides-temp/Theme2_Slides.html slides/
           cp slides-temp/xaringan-themer.css slides/
+          cp -r slides-temp/css slides/ 2>/dev/null || true
+          cp -r slides-temp/img slides/ 2>/dev/null || true
+          cp -r slides-temp/libs slides/ 2>/dev/null || true
           rm -rf slides-temp
-
+          
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git add slides/
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+          
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add slides/Theme1_Slides.html
-          git add slides/Theme2_Slides.html
-          git add slides/Theme3_Slides.html
-          git add slides/Conclusion_Slides.html
-          git add slides/css
-          git add slides/img
-          git add slides/libs
-          git add slides/xaringan-themer.css
+          git add slides/slides.html
           git commit -m "Sync latest slides from private repo" || echo "No changes to commit"
           git push origin main
+          
+          
+      - name: Summary
+        run: |
+          if [ "${{ steps.check_changes.outputs.has_changes }}" == "true" ]; then
+            echo "✅ Slides synchronized successfully"
+          else
+            echo "ℹ️ No changes detected"
+          fi
