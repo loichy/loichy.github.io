@@ -43,7 +43,7 @@ class: center, middle, inverse, title-slide
 ### M1 AID, Université Paris-Dauphine – PSL
 ]
 .date[
-### Janvier 2026 (updated: 2026-01-19)
+### Janvier 2026 (updated: 2026-02-02)
 ]
 
 ---
@@ -1080,6 +1080,42 @@ Militer pour l'abandon de la fonction quadratique de dommages, bien trop plate
   * Des chocs climatiques stochastiques possiblement irréversibles
   * Des coûts sociaux du carbone en général plus grands qui capturent de potentielles risques irréversibles
 
+
+---
+## La vulnérabilité aux impacts du changement climatique des individus les plus pauvres
+
+**Les modèles IAMs spatiaux** 
+* Désagrégation par 12 blocs régionaux des impacts du changement climatique
+* Représentation des inégalités .White.bg-Gold[au sein des régions] avec des ménages par quintile de revenu
+
+Quel paramètre dans un IAM tel que DICE peut capturer les inégalités intra-générationnel?
+--
+
+* L'aversion aux inégalités au sein d'une population est déterminée par **l'utilité marginale**, i.e. la courbure de la fonction d'utilité
+  * Plus la **fonction d'utilité est concave, plus les pertes de consommation pour les populations riches sont faiblement pondérées dans les variations de la fonction de bien-être social**, car l'utilité marginale de la consommation sera d'autant plus décroissante que la fonction d'utilité est concave
+  * C'est le rôle du paramètre `\(\eta\)`
+
+---
+## L'effet de l'introduction des inégalités intragénérationnel sur la politique optimale
+
+&lt;a name=cite-dennig&gt;&lt;/a&gt;[Dennig, Budolfson, Fleurbaey, Siebert, and Socolow (2015)](#bib-dennig): **l'effort optimal de lutte contre le changement climatique est affecté par les inégalités**
+* Si les inégalités de consommation/revenu sont grandes et que les dommages sont relativement homogènes entre ménages, alors une absence d'effort de réduction des émissions de GES peut amener les ménages pauvres futurs à être plus pauvre que les générations pauvres présentes
+* **Inclure les inégalités** avec des groupes de ménages par quintile de revenu dans un modèle DICE régionalisé avec la calibration de Nordhaus amène à **des préconisations de réduction des émissions plus ambitieuses**, équivalentes à celles du rapport Stern
+  * Effet qui s'explique par la **concavité de la fonction d'utilité**
+  * Les pertes de bien-être dues aux dommages sont beaucoup plus grandes chez les individus pauvres (à faible consommation, et donc à utilité marginale grande), que chez les individus riches (à grande consommation et donc à faible utilité marginale)
+  * Prendre en compte les inégalités de consommation (ou revenu) fait que le régulateur, dans sa fonction objectif, se soucie des pertes de bien-être plus grande chez certaines populations, qu'un modèle DICE avec un seul agent représentatif
+
+---
+#### La réduction des émissions creuse (faiblement) les inégalités intragénérationnelles à court terme pour les réduire à long terme, mais des transferts forfaitaires (EPC, *equal per capita*) peuvent réduire les inégalités
+.pull-left-narrow[
+Source: &lt;a name=cite-emmerling&gt;&lt;/a&gt;[Emmerling et al. (2024)](#bib-emmerling)
+]
+.pull-right-wide[
+.center[
+&lt;img src="img/gini.jpg" height="500" /&gt;
+]
+]
+
 ---
 ## Les inégalités d'empreinte carbone dans le monde 
 
@@ -1119,108 +1155,191 @@ A partir de [Chancel (2022)](#bib-chancel)
 ]
 
 ---
-## La vulnérabilité aux impacts du changement climatique des individus les plus pauvres
-
-**Les modèles IAMs spatiaux** 
-* Désagrégation par 12 blocs régionaux des impacts du changement climatique
-* Représentation des inégalités .White.bg-Gold[au sein des régions] avec des ménages par quintile de revenu
-
-Quel paramètre dans un IAM tel que DICE peut capturer les inégalités intra-générationnel?
---
-
-* L'aversion aux inégalités au sein d'une population est déterminée par **l'utilité marginale**, i.e. la courbure de la fonction d'utilité
-  * Plus la **fonction d'utilité est concave, plus les pertes de consommation pour les populations riches sont faiblement pondérées dans les variations de la fonction de bien-être social**, car l'utilité marginale de la consommation sera d'autant plus décroissante que la fonction d'utilité est concave
-  * C'est le rôle du paramètre `\(\eta\)`
-
----
-## L'effet de l'introduction des inégalités intragénérationnel sur la politique optimale
-
-&lt;a name=cite-dennig&gt;&lt;/a&gt;[Dennig, Budolfson, Fleurbaey, Siebert, and Socolow (2015)](#bib-dennig): **l'effort optimal de lutte contre le changement climatique est affecté par les inégalités**
-* Si les inégalités de consommation/revenu sont grandes et que les dommages sont relativement homogènes entre ménages, alors une absence d'effort de réduction des émissions de GES peut amener les ménages pauvres futurs à être plus pauvre que les générations pauvres présentes
-* **Inclure les inégalités** avec des groupes de ménages par quintile de revenu dans un modèle DICE régionalisé avec la calibration de Nordhaus amène à **des préconisations de réduction des émissions plus ambitieuses**, équivalentes à celles du rapport Stern
-  * Effet qui s'explique par la **concavité de la fonction d'utilité**
-  * Les pertes de bien-être dues aux dommages sont beaucoup plus grandes chez les individus pauvres (à faible consommation, et donc à utilité marginale grande), que chez les individus riches (à grande consommation et donc à faible utilité marginale)
-  * Prendre en compte les inégalités de consommation (ou revenu) fait que le régulateur, dans sa fonction objectif, se soucie des pertes de bien-être plus grande chez certaines populations, qu'un modèle DICE avec un seul agent représentatif
-
----
-#### La réduction des émissions creuse (faiblement) les inégalités intragénérationnelles à court terme pour les réduire à long terme, mais des transferts forfaitaires (EPC, *equal per capita*) peuvent réduire les inégalités
-.pull-left-narrow[
-Source: &lt;a name=cite-emmerling&gt;&lt;/a&gt;[Emmerling et al. (2024)](#bib-emmerling)
-]
-.pull-right-wide[
-.center[
-&lt;img src="img/gini.jpg" height="500" /&gt;
-]
-]
-
----
 class: left, bottom, inverse
 background-image: url("img/tuvalu.avif")
 background-size: cover
 ##III. Les apports de l'analyse économique aux politiques de lutte contre le changement climatique
 
 ---
+## L'émergence d'un cadre de gouvernance mondiale de la politique climatique
+
+.pull-left[
+**Un problème global**
+
+* Le changement climatique est un .White.bg-Gold[problème de bien public mondial]
+
+  * Les émissions de GES d'un pays affectent le bien-être des autres pays
+
+]
+
+--
+
+.pull-right[
+**La construction d'un cadre de coopération internationale**
+
+* .White.bg-Gold[GIEC] (1988)  
+  Groupe d'experts intergouvernemental sur l'évolution du climat
+
+* .White.bg-Gold[CNUCC] (1992)  
+  Convention-cadre des Nations unies sur les changements climatiques
+
+* .White.bg-Gold[Protocole de Kyoto] (1997)  
+  Premiers engagements contraignants
+]
+
+---
+## L'évolution vers une gouvernance fragmentée
+
+* **L'essoufflement de la coopération internationale**
+
+--
+
+  * .White.bg-Gold[Accord de Paris (2015)]
+  
+    * Engagements nationaux **volontaires** (NDCs)
+    * Absence de mécanismes contraignants
+
+--
+
+  * **Nouvelles approches de gouvernance**
+  
+    * Les **climate clubs** (Nordhaus, 2015)  
+      Accords bilatéraux commerciaux avec clauses environnementales
+
+--
+
+  * **Les limites récentes**
+  
+    * COP 29 et COP 30 : échecs des négociations multilatérales
+
+???
+* GIEC: fondé par l'Organisation Météorologique Mondiale et le programme des nations unies pour l'environnement. Scientifique du monde entier (avec représentations de chaque membres de l'ONU) et chaque état sélectionne ses scientifiques. Le GIEC va ensuite établir l'état des lieux des connaissances sur le climat à travers des rapports publiés tous les 6 à 7 ans. Premier rapport en 1990.
+* La CNUCC: organie de diplomatie internationale pilotée par l'ONU, ayant pour objectif de stabiliser les émissions de GES et de renforcer la coopération internationale. La conférences de Parties (COP) est l'organe suprême de cette convention: forum qui se réunit annuellement pour construire des règles communes aux participants de la CNUCC. Créé en 1992 lors du Sommet de la terre de Rio. Reconnaissance d'une responsabilité commune mais différenciés des états: la pauvreté est cause et effe de la dégradation de l'environnement, et le progrès des pays industrialisés  avait reposé sur la surexploitation de ressources naturelles. Dette écologique qui incombe aux pays industrialisés d'encourager le développement des pays pauvres, et de devoir d'autant plus rduire leurs émissions.
+* Le protocole de Kyoto: signé lors de la COP3, entre en vigueur en 2005. Protocole contraignant, où les états participants s'engagent à réduire de 5% leurs émissions en 2012 // au niveau de 1990. Deux mécanismes importants: mécanisme de permis négociables, avec pour ambition d'établir un marché mondial. Les mécanismes de développement propre:  groupe de pays industrialisés peuvent financer des réduction d'émissions dans les pays pauvres (Annexe II.), et obtiennent en échange des crédits d'émissions (qui peuvent être stockés ou échangés)
+* Echec dans la négociation pour prolonger Kyoto, les COP de 2009 ne permettent pas d'aboutir à un accord contraignant. Refus de l'Amérique de Bush de rejoindre le protocole, et Canada critique l'accord, Chine ne respecte pas l'accord. Difficile de faire émerger une vision commune avec autant d'intérêts divergents.
+* Accord de Paris: objectif de stabilisation de la température bien en dessous de 2C par rapport au niveau préindus: chaque pays odoit déterminer et planifier ses contributions et en rendre compte.
+* Pb du passager clandestin dans les accords climatique: formation de club comme un modèle de politique climatique international. Des accords commerrciaux avec clauses environnementales (sanctions douanières contre non participants). Comme un club: il doit y avoir un bénéfice public partagé (un bien public), la participation est bénéfique pour chaque membre, chaque non membre peut être exclu ou sanctionné, et que ce club est stable (personne ne veut partir). L'avantage ici: accès à un marché avec peut de barrière commerciale, et où chaque pays s'accorde sur un prix du carbone. Les non partcipants se voient taxés sur leurs tarifs douaniers.
+* COP 29 et COP 30: Important sujet de tension est le financement d'aide au développement vers les pays du sud pour : compenser les dommages (des petits états insulaires) et pour engager un développement décarboné. Les montants des pays développés mis sur la table ne correspondent pas aux montants demandés par les pays du sud (25% lors de la COP 29). + rôle croissant d'acteurs financiers et de l'endettement. COP 28 avait annoncer la fin des énergies fossiles, mais la COP 29 et la COP 30 n'ont pas permis de faire apparaître un chemin de transition
+
+
+---
 ## L'utilisation des IAMs pour déterminer un coût social du carbone
 
 **Déterminer une valeur de référence du coût social des émissions de gaz à effets de serre**
-* Depuis 2008, le gouvernement américain utilisait des estimations du coût social du carbone dans l'analyse coûts-bénéfices des réglementations fédérales
-  * Une valeur harmonisée issue de trois IAMs: DICE, FUND et PAGE
-  * **Utilisée par exemple, si le gouvernement doit procéder à une évaluation coût-bénéfice d'une proposition de réglementation en matière d'efficacité énergétique** 
+
+* La politique climatique repose sur la mise en oeuvre d'instruments économiques .White.bg-Gold[imposant un prix sur les émissions de GES]
+
+* Un **coût social du carbone (CSC)** de référence pour :
+  
+  * L'analyse **coûts-bénéfices** des réglementations
+  * La fixation du niveau des **taxes carbone**
+  * L'évaluation des **normes d'efficacité énergétique**
+  
+---
+
+## L'approche américaine : des IAMs aux décisions politiques  
+
+**Depuis 2008**, le gouvernement américain utilise le CSC dans ses **évaluations réglementaires**
 --
 
-* Le **rapport Quinet en France (2019)** et la valeur tutellaire du carbone est plutôt construite par un consensus entre expert que par un modèle IAM
-  * Place plus grande laissée à la sensibilité des experts plutôt qu'à la rationalité du modèle
+* Valeur harmonisée issue de **trois IAMs de référence** :
+  * .White.bg-Gold[DICE] (Nordhaus)
+  * .White.bg-Gold[FUND] 
+  * .White.bg-Gold[PAGE]
 
+* **Exemple d'application** : évaluation coût-bénéfice d'une réglementation sur l'efficacité énergétique des appareils
+
+--
+
+**L'approche française (Rapport Quinet, 2019)**
+
+* .White.bg-Gold[Valeur tutélaire du carbone] fondée sur un **consensus d'experts**
+* Moins de dépendance aux modèles IAMs
+* Plus grande place à la **délibération collective**
 
 ???
-* Greenstone et al. (2013): le processus par lequel le gouvernement américain a choisi quatre valeurs pour le coût social du carbone
-  * La valeur des émissions de dioxyde de carbone évitées
+Greenstone et al. (2013) détaillent le processus de sélection des quatre valeurs du CSC
+
 ---
-## Les IAMs et le coûts social du carbone aux Etats-Unis
 
-* 1992: Modèle DICE (Nordhaus) implique une valeur optimale de taxe carbone à environ 5 $
+## Le cas américain : quand les IAMs deviennent politiques
 
-* 2009-2013: Obama lance un groupe de travail d'expert qui fixe un coûts de 45$ en 2020
 
-* 2020: L'administration Trump fixe le coûts social du carbone à 1$
-  * Exclusion des dommages extérieurs aux US dans l'estimation
-  * Taux d'actualisation fixé à 7%
+* **1992**: Modèle DICE  
+  → **5 $/tCO₂**
+* **2013**: Administration Obama  
+  → **45 $/tCO₂** 
+* **2020**: Administration Trump  
+  → **1 $/tCO₂**
+* **2024**: Administration Biden  
+  → **190 $/tCO₂**
+* **2025**: Administration Trump 2  
+→ **Suppression**
 
-* 2024: Mise à jour par l'administration Biden à 190$
-  * Abaissement du taux d'actualisation
-  * Prise en compte des questions redistributives
-  * Intégration des bénéfices internationaux
-  * Tentative d'évaluation des bénéfices non-marchands
+---
+
+## Une même méthodologie, des résultats radicalement différents
+
+**Ces CSC sont tous issus d'IAMs**
+
+Les .White.bg-Gold[hypothèses du modèle] sont déterminantes :
+
+1. **.White.bg-Gold[Périmètre géographique]**
+   * Dommages mondiaux (Obama, Biden) vs. dommages américains uniquement (Trump)
+2. **.White.bg-Gold[Taux d'actualisation]**
+   * 3% (Obama/Biden) vs. 7% (Trump)
+   * Impact majeur sur les bénéfices futurs
+3. **.White.bg-Gold[Tentative d'évaluation des bénéfices non-marchands]** (Obama, Biden)
+   * Santé, biodiversité, écosystèmes
+
+Les IAMs ne sont pas neutres : les choix méthodologiques reflètent des **positions normatives** sur la justice climatique
+
+
   
 ---
 ## Les IAMs et le coûts social du carbone aux EU (suite)
+2025: **Suppression de l'utilisation du coût social du carbone par l'administration Trump**
 
-* 2025: Suppression de l'utilisation du coût social du carbone par l'administration Trump
+* Message politique : .White.bg-Gold[faire croire que l'action climatique n'est pas rentable]
 
 .center["*The calculation of the “social cost of carbon” is marked by logical deficiencies, a poor basis in empirical science, politicization, and the absence of a foundation in legislation.  Its abuse arbitrarily slows regulatory decisions and, by rendering the United States economy internationally uncompetitive, encourages a greater human impact on the environment by affording less efficient foreign energy producers a greater share of the global energy and natural resource market.  Consequently, within 60 days of the date of this order, the Administrator of the EPA shall issue guidance to address these harmful and detrimental inadequacies, including consideration of eliminating the “social cost of carbon” calculation from any Federal permitting or regulatory decision.*" [(Unleashing American Energy, 2025)](https://www.whitehouse.gov/presidential-actions/2025/01/unleashing-american-energy/)
 ]
 
 ---
 
-## Nourir les décideurs politiques de chiffres
+## Vers un changement de rôle des IAMs
 
 * Les accords de Paris (2015) et les politiques climatiques récentes de l'UE viennent définir objectifs précis en matière de trajectoires de réduction d'émissions de GES
   * .White.bg-Gold[Zéro émission de GES nette pour l'UE d'ici 2050]
-* Cela peut sembler amoindrir le rôle des IAMs, notamment DICE, qui a été conçu pour ***définir ces objectifs de réduction*** (pas le cas de l'IAM PAGE qui a plus vocation à établir le coût d'une certain objectif climatique donné, exogène)
-* Il n'empêche qu'ils ont toujours potentiel à servir pour évaluer les couts-bénéfices des trajectoires d'émissions à moyen ou court-terme
-  * Notamment en revenant à des **analyses d'efficacité en coûts** (quelle est la trajectoire la moins coûteuse, comme pour PAGE), **plutôt que des analyses coûts-bénéfices venant définir le réchauffement optimal**
-  * Cela veut dire que l'on enlève le bloc de dommages du modèle, et que l'on impose une contrainte de réductions des émissions
-  * Fixer par exemple un objectif de stabilisation de la température à 1.5°C ou 2°C  
-  * Une approche qui peut sembler pertinente car les coûts d'abattement sont bien moins incertains que les dommages, et la définition d'un réchauffement optimal est bien trop sensible à la calibration des dommages
+* Mais certains IAMs, comme DICE, ont été conçus pour ***définir ces objectifs de réduction*** 
+* Mais les IAMs peuvent aussi servir à évaluer les couts-bénéfices des trajectoires d'émissions à moyen ou court-terme et sa composition par secteurs
+  * Notamment en revenant à des **analyses d'efficacité en coûts** (quelle est la trajectoire la moins coûteuse, comme pour PAGE), **plutôt que des analyses coûts-bénéfices venant définir le réchauffement optimal** (Pottier)
+  * Une approche qui peut sembler pertinente car **les coûts d'abattement sont bien moins incertains que les dommages**, et la définition d'un réchauffement optimal est bien trop sensible à la calibration des dommages
 
-  
+---
+## Exercice: l'utilisation des IAMs par le GIEC
+
+**Observer dans les rapports du GIEC de quelle manière les IAMs sont mobilisés pour produire un état des lieux de l'action contre le changement climatique**
+
+* Lire:
+  * [Le résumé pour les décideurs politique du second rapport du GIEC (1995)](https://www.ipcc.ch/site/assets/uploads/2018/05/2nd-assessment-en-1.pdf)
+  * [Le chapitre 6 du cinquième rapport du troisième groupe de travail du GIEC (2014)](https://www.ipcc.ch/site/assets/uploads/2018/02/ipcc_wg3_ar5_chapter6.pdf)
+  * [Le chapitre 3 du sixième rapport du du troisième groupe de travail du GIEC (2022)](https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_FullReport.pdf)
+
+* Noter les éléments suivants
+  * La définition et l'intérêt de ces outils
+  * L'explication des différents IAMs
+  * La manière dont les résultats sont mis en avant
+
+* Qu'est-ce que cela nous apprend sur la manière dont ces outils sont mobilisés pour éclairer les décideurs politiques?
+
 ---
 ## Le décalage entre les politiques optimales et les politiques mises en oeuvre
 
 * Préconisations des IAMs les plus récents (corrigés des biais d'origine) montrent **des trajectoires de réduction d'émissions importantes**
 
 * Ces politiques optimales **ne sont pas celles suivies par la plupart des pays les plus émetteurs de GES**
-  * On observe même des rétropédalages: le cas de la Suède qui abandonne l'une des taxes carbone les plus ambitieuses depuis 1991 à plus de 130€/tCO2
+  * On observe même des rétropédalages: le cas de la Suède qui envisage d'abandonner l'une des taxes carbone les plus ambitieuses depuis 1991 à plus de 130€/tCO2
   
 **Au-delà d'un contexte politique et international mouvant, quelles raisons économiques?**
 
@@ -1229,8 +1348,7 @@ background-size: cover
 
 Les IAMs imposent une réduction des émissions à travers la décision d'une variable de contrôle des émissions, sans questionner l'intrument de politique économique qui vient contrôler ces émissions
 
-* **Un quota carbone?** Ou **Un prix du carbone**?
-* Mais comment est-il mis en oeuvre? et avec quelle efficacité? Cela reste vague
+* **Un quota carbone?** ou **une taxe carbone** ou des **standards réglementaires**?
 
 ### Nous discuterons de cela lors du prochain thème
 
@@ -1272,25 +1390,6 @@ Toutes les sciences sociales sont nécessaires
 https://en.wikipedia.org/wiki/Climate_change_litigation
 
 Climate change engagement of scientists
-
-* Simplicité des modèles :
-  * Trois modèles mondiaux d'évaluation intégrée de l'économie et du climat, dont DICE.
-  * Tous ces modèles comprennent une représentation des dommages climatiques, mais aucun d'entre eux n'inclut une représentation des choix technologiques
-  * A l'inverse les modèles de choix technologiques ne comportent pas les dommages nécessaires à l'évaluation des émissions.
-
-* Un abus de ces modèles d'être employé pour guider la politique
-* Leur prédiction numérique ne viennent pas d'une modélisation complète
-
----
-## La difficulté d'établir une politique internationale coordonnée
-
-* Difficulté importante pour établir et de faire respecter des accords contraignants internationaux sur le climat
-* Les intérêts des états à dévier de leurs engagements sont forts
-  * **Phénomène de passagers clandestins**
-
-* Comment inciter les pays à participer à des accords volontaires de réduction contraignant?
-  * Envisager des plus petits accords ou les intérêts peuvent être plus convergents entre parties
-  * L'idée des **climate clubs** ,qui ressemble à l'idée t'un mécanisme d'ajustement carbone au frontière
 
 ---
 class: left, bottom, inverse
@@ -1494,11 +1593,6 @@ Change". In: _Review of Environmental Economics and Policy_ 5.2, pp.
 275-292. ISSN: 1750-6816, 1750-6824. DOI:
 [10.1093/reep/rer006](https://doi.org/10.1093%2Freep%2Frer006).
 (Visited on janv.. 16, 2026).
-
----
-# References VII
-
-
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
