@@ -37,11 +37,14 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          git add slides/
-          if git diff --staged --quiet; then
+          git add -f slides/
+          git diff --cached --stat
+          if git diff --cached --quiet; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No changes detected"
           else
             echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "✅ Changes detected, will commit"
           fi
           
       - name: Commit and Push Changes
@@ -57,5 +60,5 @@ jobs:
           if [ "${{ steps.check_changes.outputs.has_changes }}" == "true" ]; then
             echo "✅ Slides synchronized successfully"
           else
-            echo "ℹ️ No changes detected"
+            echo "ℹ️ No changes detected — nothing to push"
           fi
