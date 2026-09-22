@@ -2,8 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
-# Ignore lecture slides
-phdtopic-slides/
 
 /.quarto/
 **/*.quarto_ipynb

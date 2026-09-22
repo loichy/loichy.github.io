@@ -10,6 +10,7 @@ project:
     - research.qmd
     - teaching.qmd
     - curriculum.qmd
+    - anr-adaptagrichain.qmd
 
 website:
   title: "Loïc Henry"
@@ -29,6 +30,8 @@ website:
         href: research.qmd
       - text: "Teaching"
         href: teaching.qmd
+      - text: "ANR AdaptAgriChain"
+        href: anr-adaptagrichain.qmd
 
 format:
   html:

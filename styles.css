@@ -1,11 +1,3 @@
-/* Couleurs reprises de postcards.css (thème précédent), adaptées aux
-   classes Bootstrap de Quarto. Police : "Source Sans Pro", la police du
-   thème Bootswatch "cosmo" (déjà choisi dans _quarto.yml) — c'est aussi
-   la police du site pris en référence (constance-beaufils.github.io).
-   Comme elle est fournie directement par le thème cosmo (auto-hébergée,
-   pas besoin d'aller la chercher chez Google Fonts), aucun @import n'est
-   nécessaire ici : une dépendance externe en moins, donc plus pérenne. */
-
 :root {
   --header-bg: #bcd8c4;
   --header-text: #2e8b57;
@@ -46,6 +38,14 @@ h1, h2, h3, h4, h5, h6,
 }
 .nav-footer a {
   color: var(--footer-text);
+}
+
+/* Chapeau/description sous le titre (champ "description:" du YAML) */
+.quarto-title .description,
+div > .description {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.75);
 }
 
 /* Liens dans le corps du texte */
