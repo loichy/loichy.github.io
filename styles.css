@@ -1,0 +1,72 @@
+/* Couleurs reprises de postcards.css (thème précédent), adaptées aux
+   classes Bootstrap de Quarto. Police : "Source Sans Pro", la police du
+   thème Bootswatch "cosmo" (déjà choisi dans _quarto.yml) — c'est aussi
+   la police du site pris en référence (constance-beaufils.github.io).
+   Comme elle est fournie directement par le thème cosmo (auto-hébergée,
+   pas besoin d'aller la chercher chez Google Fonts), aucun @import n'est
+   nécessaire ici : une dépendance externe en moins, donc plus pérenne. */
+
+:root {
+  --header-bg: #bcd8c4;
+  --header-text: #2e8b57;
+  --header-hover: #1e442d;
+  --footer-bg: #0F2E3D;
+  --footer-text: rgba(255, 255, 255, 0.8);
+}
+
+body {
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+h1, h2, h3, h4, h5, h6,
+.navbar-title, .navbar-brand,
+.about-entity-name {
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+}
+
+/* Barre de navigation */
+.navbar {
+  background-color: var(--header-bg) !important;
+}
+.navbar .navbar-title,
+.navbar .nav-link {
+  color: var(--header-text) !important;
+  font-weight: 500;
+}
+.navbar .nav-link:hover {
+  color: var(--header-hover) !important;
+}
+
+/* Pied de page */
+.nav-footer {
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+}
+.nav-footer a {
+  color: var(--footer-text);
+}
+
+/* Liens dans le corps du texte */
+#quarto-content a {
+  border-bottom: 2px solid var(--header-bg);
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Puces de liste */
+#quarto-content ul > li::marker {
+  color: var(--header-hover);
+}
+
+/* Boutons de liens de la page "about" (template jolla) */
+.about-link {
+  border-color: var(--header-text) !important;
+  color: var(--header-text) !important;
+  font-weight: 500;
+}
+.about-link:hover {
+  border-color: var(--header-hover) !important;
+  color: var(--header-hover) !important;
+}

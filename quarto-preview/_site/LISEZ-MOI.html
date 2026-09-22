@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="I’m an assistant professor at LEDa, Université Paris-Dauphine in Paris, France. I work on economics relevant to climate change. In particular, I am interested in estimating climate change impacts, assessing adaptation options and designing optimal mitigation policies, mostly by using applied modeling tools. I co-organize the Dauphine economics seminar.">
 
-<title>About me – Loïc Henry</title>
+<title>lisez-moi – Loïc Henry</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -107,7 +106,7 @@ gtag('config', 'G-M3L4WL4K5Q', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./curriculum.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item">
@@ -131,47 +130,48 @@ gtag('config', 'G-M3L4WL4K5Q', { 'anonymize_ip': true});
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About me</h1>
-</div>
-
-<div>
-  <div class="description">
-    <p>I’m an assistant professor at <a href="https://leda.dauphine.fr/">LEDa, Université Paris-Dauphine</a> in Paris, France. I work on <strong>economics relevant to climate change</strong>. In particular, I am interested in estimating climate change impacts, assessing adaptation options and designing optimal mitigation policies, mostly by using applied modeling tools. I co-organize the <a href="https://leda.dauphine.fr/fr/seminaire-externe/seminaire-leda.html">Dauphine economics seminar</a>.</p>
-  </div>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
-
-
-<!-- Prior to that, I was Postdoctoral Research Fellow at [the Economic and Social Research Institute (ESRI)](https://www.esri.ie/) in Dublin, Ireland. I completed my PhD in economics at UMR [Paris-Saclay Applied Economics (PSAE)](https://www6.versailles-grignon.inrae.fr/economie_publique) in September 2021, advised by Stéphane De Cara (INRAE). See [here](https://youtu.be/i2yW7j1fkUk?t=6) for a brief presentation
-of my PhD in French. -->
-<section id="employment-and-education" class="level2">
-<h2 data-anchor-id="employment-and-education">Employment and education</h2>
+<section id="maquette-quarto-à-tester-ne-remplace-rien-pour-linstant" class="level1">
+<h1>Maquette Quarto — à tester, ne remplace rien pour l’instant</h1>
+<p>Ce dossier est une proposition complète pour basculer ton site de <code>postcards</code>/<code>distill</code> vers <strong>Quarto</strong>. Il ne touche à rien du site actuel (<code>index.Rmd</code>, <code>docs/</code>, etc.) : c’est un dossier à part que tu peux essayer, comparer, puis adopter (ou pas).</p>
+<section id="pour-le-tester-2-minutes" class="level2">
+<h2 data-anchor-id="pour-le-tester-2-minutes">Pour le tester (2 minutes)</h2>
+<ol type="1">
+<li><p>Installe Quarto (une seule fois) : https://quarto.org/docs/get-started/ — un simple installeur, pas un package R.</p></li>
+<li><p>Dans RStudio, ouvre ce dossier <code>quarto-preview/</code> comme dossier de travail.</p></li>
+<li><p>Soit tu cliques sur “Render” (RStudio détecte automatiquement le projet Quarto), soit dans un terminal, à l’intérieur de ce dossier :</p>
+<pre><code>quarto preview</code></pre>
+<p>Ça ouvre le site dans ton navigateur, avec rechargement automatique à chaque modification.</p></li>
+</ol>
+</section>
+<section id="ce-qui-est-repris-à-lidentique" class="level2">
+<h2 data-anchor-id="ce-qui-est-repris-à-lidentique">Ce qui est repris à l’identique</h2>
 <ul>
-<li><strong>2022-</strong> Assistant professor at <a href="https://leda.dauphine.fr/">LEDa, Université Paris-Dauphine</a></li>
-<li><strong>2021-2022</strong> Postdoctoral research fellow at <a href="https://www.esri.ie/">Economic and Social Research Institute (ESRI, Dublin, Ireland)</a></li>
-<li><strong>2017-2021</strong> PhD candidate at <a href="https://www6.versailles-grignon.inrae.fr/economie_publique">Paris-Saclay Applied Economics (PSAE)</a>. Advisor: Stéphane De Cara</li>
-<li><strong>2017-2021</strong> Assistant lecturer at ENS Paris-Saclay.</li>
-<li><strong>2016-2017</strong> Visiting student at <a href="https://www.motu.nz/">Motu (Wellington, New Zealand).</a></li>
-<li><strong>2015-2016</strong> Master 2, Université Paris Saclay, <a href="https://www.universite-paris-saclay.fr/en/education/master/environmental-energy-and-transport-economics/m2-economie-du-developpement-durable-et-de-lenvironnement">Economie de l’énergie de l’environnement et des transports.</a></li>
+<li>Le texte de toutes les pages (accueil, About me, Research, Teaching) — copié tel quel depuis <code>index.Rmd</code>, <code>curriculum.Rmd</code>, <code>research.Rmd</code>, <code>teaching.Rmd</code>.</li>
+<li>La structure de navigation (mêmes 3 liens : About me / Research / Teaching).</li>
+<li>La page d’accueil utilise le template Quarto <strong>“jolla”</strong> — le même nom, la même disposition (photo ronde + nom + liens) que <code>postcards::jolla</code> que tu utilises aujourd’hui. C’est une fonctionnalité native de Quarto, pas une extension tierce.</li>
+<li>Les couleurs et polices de <code>postcards.css</code> (vert sauge / bleu marine, polices Amiri/Bitter/DM Mono) sont reprises dans <code>styles.css</code> — adaptées aux classes HTML de Quarto (Bootstrap), qui sont différentes de celles de Distill. Le rendu exact peut donc légèrement différer par endroits ; à ajuster à l’œil une fois que tu l’auras sous les yeux.</li>
 </ul>
-<!-- Link for detailed CVs [in English](https://www.dropbox.com/s/m2e4o6vnadagfup/CV_2023.pdf?dl=0) and [in French](https://www.dropbox.com/s/udqsjfat0m8p714/CV_2023_fr.pdf?dl=0) -->
+</section>
+<section id="ce-qui-reste-à-faire-si-tu-adoptes-cette-version-pour-de-bon" class="level2">
+<h2 data-anchor-id="ce-qui-reste-à-faire-si-tu-adoptes-cette-version-pour-de-bon">Ce qui reste à faire si tu adoptes cette version pour de bon</h2>
+<ul>
+<li>Les liens vers <code>slides/Theme2_Slides.html</code>, <code>slides/Theme4_Slides.html</code> et <code>phdtopic/Slides.html</code> pointent vers les mêmes chemins relatifs qu’aujourd’hui. Ils ne fonctionnent pas depuis ce dossier <code>quarto-preview/</code> isolé (les dossiers <code>slides/</code> et <code>phdtopic/</code> sont à la racine du dépôt), mais fonctionneront normalement une fois ces fichiers déplacés à la racine du dépôt, aux côtés de ces mêmes dossiers.</li>
+<li>Les icônes “Google Scholar” et “ORCID” sont pour l’instant en texte seul (pas d’icône Bootstrap officielle pour ces deux-là) ; possible d’ajouter l’extension Quarto “academicons” plus tard si tu veux des icônes dédiées.</li>
+<li>Le fichier <code>quarto-publish.workflow.yml</code> est prêt pour automatiser le rendu via GitHub Actions (à chaque <code>push</code>, comme discuté) — à copier toi-même vers <code>.github/workflows/quarto-publish.yml</code>, je n’ai pas le droit d’écrire directement dans ce dossier depuis cette session.</li>
+<li>Le <code>renv.lock</code> du site actuel n’a pas d’équivalent obligatoire côté Quarto : Quarto n’est pas un package R (c’est un outil en ligne de commande), donc aucune dépendance R n’est nécessaire pour ces pages qui ne contiennent pas de code R. Si tu ajoutes des chunks R plus tard, un <code>renv.lock</code> séparé pourra être utile.</li>
+</ul>
+</section>
+<section id="pourquoi-je-nai-pas-pu-te-montrer-un-rendu-déjà-fait" class="level2">
+<h2 data-anchor-id="pourquoi-je-nai-pas-pu-te-montrer-un-rendu-déjà-fait">Pourquoi je n’ai pas pu te montrer un rendu déjà fait</h2>
+<p>Je n’ai pas pu installer Quarto dans cet environnement cloud pour te générer un aperçu déjà rendu : l’accès réseau y est restreint (CRAN, quarto.org et GitHub bloqués par la politique réseau de cette session). Plutôt que de te proposer une image que j’aurais reconstituée à la main — donc pas fiable à 100 % — je préfère te donner les vraies sources, à rendre toi-même en une poignée de secondes une fois Quarto installé, pour voir le résultat exact.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+  # Liste explicite des pages à construire : sans ça, Quarto essaie par
+  # défaut de rendre TOUS les .qmd/.Rmd trouvés dans le dépôt, y compris
+  # phdtopic/Slides.Rmd qui appartient à un autre sous-projet (xaringan,
+  # géré par son propre .Rproj, pas par ce site).
+  render:
+    - index.qmd
+    - research.qmd
+    - teaching.qmd
+    - curriculum.qmd
+
+website:
+  title: "Loïc Henry"
+  site-url: "https://loichy.github.io/"
+  repo-url: "https://github.com/loichy/loichy.github.io"
+  favicon: "octopus_1f419.png"
+  google-analytics: "G-M3L4WL4K5Q"
+  page-footer:
+    center: "Loïc Henry · CC BY"
+  navbar:
+    logo: "octopus_1f419.png"
+    title: "Loïc Henry"
+    right:
+      - text: "About me"
+        href: curriculum.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    anchor-sections: false
