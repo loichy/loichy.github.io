@@ -1,7 +1,5 @@
 [
   {
-<<<<<<< HEAD
-=======
     "objectID": "anr-adaptagrichain.html#about-the-project",
     "href": "anr-adaptagrichain.html#about-the-project",
     "title": "ANR AdaptAgriChain",
@@ -51,7 +49,6 @@
     "text": "Welcome!\nI’m an assistant professor at LEDa, Université Paris-Dauphine in Paris, France. I work on economics relevant to climate change. In particular, I am interested in estimating climate change impacts, assessing adaptation options and designing optimal mitigation policies, mostly by using applied modeling tools."
   },
   {
->>>>>>> 52c181790546d4c1f7ae80f7c5451e2d11ae0a4e
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
@@ -92,8 +89,6 @@
     "title": "Research",
     "section": "PhD Thesis",
     "text": "PhD Thesis\nManuscript: Essays on the economics of climate change: mitigation and adaptation in the agricultural sector, with link to the Presentation slides, and a brief video presentation in French."
-<<<<<<< HEAD
-=======
   },
   {
     "objectID": "curriculum.html",
@@ -108,6 +103,5 @@
     "title": "About me",
     "section": "",
     "text": "2022- Assistant professor at LEDa, Université Paris-Dauphine\n2021-2022 Postdoctoral research fellow at Economic and Social Research Institute (ESRI, Dublin, Ireland)\n2017-2021 PhD candidate at Paris-Saclay Applied Economics (PSAE).\n2017-2021 Assistant lecturer at ENS Paris-Saclay.\n2016-2017 Research Assistant at Motu (Wellington, New Zealand).\n2015-2016 Master 2, Université Paris Saclay, Economie de l’énergie de l’environnement et des transports."
->>>>>>> 52c181790546d4c1f7ae80f7c5451e2d11ae0a4e
   }
 ]
