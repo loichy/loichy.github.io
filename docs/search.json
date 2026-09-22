@@ -1,16 +1,5 @@
 [
   {
-<<<<<<< HEAD
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Nature and Economics (2025-), M1 AID, Université Paris-Dauphine - PSL, co-taught with Romain Plassard.\n\nTopic 3: Economic Analysis of Climate Change, Slides\nTopic 4: Environmental Policies and Ecological Transitions, Slides\n\nPanel data econometrics applied to environmental and agricultural economics (2023-), M1 AID, Université Paris-Dauphine - PSL.  Link to syllabus\nMicroeconomics and the environment (2025-), M1 Economics and Finance, Université Paris-Dauphine - PSL (London campus)\nPhD Topic (2025), Université Paris-Dauphine - PSL. Weather and Climate Projections Data for Economics: An Introduction. Slides, and Source Materials"
-  },
-  {
-    "objectID": "teaching.html#current-teaching",
-    "href": "teaching.html#current-teaching",
-=======
     "objectID": "anr-adaptagrichain.html#about-the-project",
     "href": "anr-adaptagrichain.html#about-the-project",
     "title": "ANR AdaptAgriChain",
@@ -34,14 +23,11 @@
   {
     "objectID": "teaching.html",
     "href": "teaching.html",
->>>>>>> efcaa96a6962dc8a61812d7fc13ff18ee4964cd7
     "title": "Teaching",
     "section": "",
     "text": "Nature and Economics (2025-), M1 AID, Université Paris-Dauphine - PSL, co-taught with Romain Plassard.\n\nTopic 3: Economic Analysis of Climate Change, Slides\nTopic 4: Environmental Policies and Ecological Transitions, Slides\n\nPanel data econometrics applied to environmental and agricultural economics (2023-), M1 AID, Université Paris-Dauphine - PSL.  Link to syllabus\nMicroeconomics and the environment (2025-), M1 Economics and Finance, Université Paris-Dauphine - PSL (London campus)\nPhD Topic (2025), Université Paris-Dauphine - PSL. Weather and Climate Projections Data for Economics: An Introduction. Slides, and Source Materials"
   },
   {
-<<<<<<< HEAD
-=======
     "objectID": "teaching.html#current-teaching",
     "href": "teaching.html#current-teaching",
     "title": "Teaching",
@@ -49,7 +35,6 @@
     "text": "Nature and Economics (2025-), M1 AID, Université Paris-Dauphine - PSL, co-taught with Romain Plassard.\n\nTopic 3: Economic Analysis of Climate Change, Slides\nTopic 4: Environmental Policies and Ecological Transitions, Slides\n\nPanel data econometrics applied to environmental and agricultural economics (2023-), M1 AID, Université Paris-Dauphine - PSL.  Link to syllabus\nMicroeconomics and the environment (2025-), M1 Economics and Finance, Université Paris-Dauphine - PSL (London campus)\nPhD Topic (2025), Université Paris-Dauphine - PSL. Weather and Climate Projections Data for Economics: An Introduction. Slides, and Source Materials"
   },
   {
->>>>>>> efcaa96a6962dc8a61812d7fc13ff18ee4964cd7
     "objectID": "teaching.html#past-teaching",
     "href": "teaching.html#past-teaching",
     "title": "Teaching",
@@ -57,33 +42,11 @@
     "text": "Past teaching\n\nMacroeconomics of the environmental transition (2023-2026), Sustainability Science Program, 2nd year, PSL. Link to syllabus and link to tutorial program\nEconometrics (2022-2025), L3 EID-EIF, Université Paris-Dauphine - PSL. \nMicro-econometrics (2022-2024), M1 AID, Université Pars-Dauphine \nAdvanced econometrics (2021), M1 Master of Economics, Université Paris-Saclay  \nEconometrics (2017-2021), L3 Economie, ENS Paris-Saclay  \nBootcamps (2021), M1 Master of Economics, Université Paris-Saclay\nMicroeconomics (2017-2021), L3 Economie, ENS Paris-Saclay\nEconomie publique (2016), L3 Economie, Université Paris-Descartes"
   },
   {
-<<<<<<< HEAD
-    "objectID": "anr-adaptagrichain.html#about-the-project",
-    "href": "anr-adaptagrichain.html#about-the-project",
-    "title": "ANR AdaptAgriChain",
-    "section": "About the project",
-    "text": "About the project\n\nSummary\nMost research on climate change and agriculture focuses on how farmers directly respond to weather shocks, by adjusting crop choices, inputs, or land use. AdaptAgriChain starts from a different angle: farmers do not adapt in isolation. They operate within agricultural supply chains dominated by a small number of downstream firms (processors, retailers, and other intermediaries) whose market power and investment decisions shape how, and how well, agriculture can adapt to a changing climate.\nThis project studies how the structure of agri-food supply chains affects climate change impacts in the agricultural sector, and what this implies for agricultural and climate policy in France and the European Union. It combines tools from industrial organization and agricultural economics with detailed weather, climate, and firm-level financial data.\nThe project is led by Loïc Henry and funded by the French National Research Agency (ANR) as a JCJC (Jeunes Chercheuses et Jeunes Chercheurs) grant, for 42 months starting on January 2026.\n\n\nResearch axes\n\nMarket power and the distribution of weather shock costs. This axis examines how market power among agro-industrial intermediaries affects the way the costs of weather shocks are shared between farmers and downstream firms, and whether concentrated markets leave farmers more exposed to climate risk.\nIntermediary firms and long-term climate adaptation through crop relocation. Adapting to climate change often means relocating crops to more suitable areas, but this depends on nearby processing and storage infrastructure. This axis studies how the willingness of intermediary firms to invest in such infrastructure, and the high fixed costs involved, affects farmers’ ability to relocate production as the climate changes.\nPolicy design in concentrated agricultural markets."
-  },
-  {
-    "objectID": "anr-adaptagrichain.html#team",
-    "href": "anr-adaptagrichain.html#team",
-    "title": "ANR AdaptAgriChain",
-    "section": "Team",
-    "text": "Team\n\nLoïc Henry\nBertille Daran\nFrançois Bareille\nRémi Avignon\nPhilippe Delacote"
-  },
-  {
-    "objectID": "anr-adaptagrichain.html#funding",
-    "href": "anr-adaptagrichain.html#funding",
-    "title": "ANR AdaptAgriChain",
-    "section": "Funding",
-    "text": "Funding\n\nThis project is funded by the French National Research Agency (ANR) under its JCJC (Jeunes Chercheuses et Jeunes Chercheurs) programme."
-=======
     "objectID": "index.html",
     "href": "index.html",
     "title": "Loïc Henry",
     "section": "",
     "text": "Welcome!\nI’m an assistant professor at LEDa, Université Paris-Dauphine in Paris, France. I work on economics relevant to climate change. In particular, I am interested in estimating climate change impacts, assessing adaptation options and designing optimal mitigation policies, mostly by using applied modeling tools."
->>>>>>> efcaa96a6962dc8a61812d7fc13ff18ee4964cd7
   },
   {
     "objectID": "research.html",
@@ -132,13 +95,13 @@
     "href": "curriculum.html",
     "title": "About me",
     "section": "",
-    "text": "2022- Assistant professor at LEDa, Université Paris-Dauphine\n2021-2022 Postdoctoral research fellow at Economic and Social Research Institute (ESRI, Dublin, Ireland)\n2017-2021 PhD candidate at Paris-Saclay Applied Economics (PSAE). Advisor: Stéphane De Cara\n2017-2021 Assistant lecturer at ENS Paris-Saclay.\n2016-2017 Visiting student at Motu (Wellington, New Zealand).\n2015-2016 Master 2, Université Paris Saclay, Economie de l’énergie de l’environnement et des transports."
+    "text": "2022- Assistant professor at LEDa, Université Paris-Dauphine\n2021-2022 Postdoctoral research fellow at Economic and Social Research Institute (ESRI, Dublin, Ireland)\n2017-2021 PhD candidate at Paris-Saclay Applied Economics (PSAE).\n2017-2021 Assistant lecturer at ENS Paris-Saclay.\n2016-2017 Research Assistant at Motu (Wellington, New Zealand).\n2015-2016 Master 2, Université Paris Saclay, Economie de l’énergie de l’environnement et des transports."
   },
   {
     "objectID": "curriculum.html#employment-and-education",
     "href": "curriculum.html#employment-and-education",
     "title": "About me",
     "section": "",
-    "text": "2022- Assistant professor at LEDa, Université Paris-Dauphine\n2021-2022 Postdoctoral research fellow at Economic and Social Research Institute (ESRI, Dublin, Ireland)\n2017-2021 PhD candidate at Paris-Saclay Applied Economics (PSAE). Advisor: Stéphane De Cara\n2017-2021 Assistant lecturer at ENS Paris-Saclay.\n2016-2017 Visiting student at Motu (Wellington, New Zealand).\n2015-2016 Master 2, Université Paris Saclay, Economie de l’énergie de l’environnement et des transports."
+    "text": "2022- Assistant professor at LEDa, Université Paris-Dauphine\n2021-2022 Postdoctoral research fellow at Economic and Social Research Institute (ESRI, Dublin, Ireland)\n2017-2021 PhD candidate at Paris-Saclay Applied Economics (PSAE).\n2017-2021 Assistant lecturer at ENS Paris-Saclay.\n2016-2017 Research Assistant at Motu (Wellington, New Zealand).\n2015-2016 Master 2, Université Paris Saclay, Economie de l’énergie de l’environnement et des transports."
   }
 ]
