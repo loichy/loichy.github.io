@@ -28,10 +28,10 @@ website:
         href: curriculum.qmd
       - text: "Research"
         href: research.qmd
-      - text: "Teaching"
-        href: teaching.qmd
       - text: "ANR AdaptAgriChain"
         href: anr-adaptagrichain.qmd
+      - text: "Teaching"
+        href: teaching.qmd
 
 format:
   html:
