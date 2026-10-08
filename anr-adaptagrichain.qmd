@@ -37,4 +37,4 @@ for 42 months starting on January 2026.
 
 ![](anr-logo.png){width="180px" fig-alt="Logo of the French National Research Agency (ANR)"}
 
-This project is funded by the French National Research Agency (ANR) under its JCJC (Jeunes Chercheuses et Jeunes Chercheurs) programme.
+This project is funded by the French National Research Agency (ANR) under its JCJC (Jeunes Chercheuses et Jeunes Chercheurs) programme. [Permanent link to the project page on the funder website.](https://anr.fr/Projet-ANR-25-CE26-3463)

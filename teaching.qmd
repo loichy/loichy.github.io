@@ -5,8 +5,8 @@ title: "Teaching"
 
 * **Nature and Economics (2025-), M1 AID, Université Paris-Dauphine - PSL,**
 co-taught with Romain Plassard.
-  * [**Topic 3: Economic Analysis of Climate Change, Slides**](slides/Theme2_Slides.html)
-  * [**Topic 4: Environmental Policies and Ecological Transitions, Slides**](slides/Theme4_Slides.html)
+  <!-- * [**Topic 3: Economic Analysis of Climate Change, Slides**](slides/Theme2_Slides.html) -->
+  <!-- * [**Topic 4: Environmental Policies and Ecological Transitions, Slides**](slides/Theme4_Slides.html) -->
 
 * **Panel data econometrics applied to environmental and agricultural economics (2023-), M1 AID, Université Paris-Dauphine - PSL. **
 [**Link to syllabus**](https://www.dropbox.com/scl/fi/5n7xt18fcxx9dxe8zsqem/Syllabus_Panel.pdf?rlkey=sfekfoas1grzfzus5y6ikdmrr&dl=0)
